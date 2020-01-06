@@ -4,8 +4,10 @@ Opinionated eslint set of rules with support for Vue and PHP. This also includes
 
 ## Usage
 
+Install dependencies.
+
 ```sh
-yarn add -D @clickbar/eslint-config
+npx install-peerdeps --dev @clickbar/eslint-config
 ```
 
 Add these keys to your `package.json`:

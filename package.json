@@ -2,15 +2,16 @@
   "name": "@clickbar/eslint-config",
   "version": "2.0.1",
   "scripts": {
-    "test": "cross-env NODE_ENV=production eslint *.js"
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix"
   },
   "description": "eslint config used at clickbar.",
   "main": "index.js",
   "repository": "https://github.com/clickbar/eslint-config.git",
   "author": "Alexander von Studnitz <alexander.von.studnitz@gmail.com>",
   "license": "MIT",
-  "dependencies": {
-    "cross-env": "^6.0.3",
+  "peerDependencies": {
+    "eslint": "^6.1.0",
     "eslint-config-prettier": "^6.0.0",
     "eslint-plugin-cypress": "^2.8.1",
     "eslint-plugin-prettier": "^3.1.0",
@@ -19,9 +20,10 @@
   },
   "devDependencies": {
     "eslint": "^6.1.0",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-plugin-cypress": "^2.8.1",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-vue": "^6.1.2",
     "prettier": "^1.19.1"
-  },
-  "peerDependencies": {
-    "eslint": "^6.0.0"
   }
 }
