@@ -30,6 +30,22 @@ module.exports = {
         },
       },
     ],
-    'prettier/prettier': 'error',
+    'prettier/prettier': [
+      'error',
+      {
+        overrides: [
+          {
+            files: '*.php',
+            options: {
+              tabWidth: 4,
+            },
+          },
+        ],
+        semi: false,
+        singleQuote: true,
+        trailingComma: 'es5',
+        tabWidth: 2,
+      },
+    ],
   },
 }
