@@ -1,6 +1,6 @@
 {
   "name": "@clickbar/eslint-config",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "scripts": {
     "lint": "eslint .",
     "lint:fix": "eslint --fix"
