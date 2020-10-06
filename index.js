@@ -23,14 +23,7 @@ module.exports = {
     'prefer-const': 'error',
     'no-var': 'error',
     'vue/component-name-in-template-casing': ['error', 'PascalCase'],
-    'vue/html-self-closing': [
-      'error',
-      {
-        html: {
-          void: 'any',
-        },
-      },
-    ],
+    'vue/html-self-closing': ['error', { html: { void: 'any' } }],
     'prettier/prettier': [
       'error',
       {
@@ -44,7 +37,6 @@ module.exports = {
         ],
         semi: false,
         singleQuote: true,
-        trailingComma: 'es5',
         tabWidth: 2,
       },
     ],
