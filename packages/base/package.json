@@ -1,0 +1,33 @@
+{
+  "name": "@clickbar/eslint-config-base",
+  "version": "4.0.0-beta.0",
+  "description": "",
+  "keywords": [],
+  "license": "MIT",
+  "author": "Alexander von Studnitz <studnitz@hey.com> (https://github.com/studnitz/)",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint . --config=index.js"
+  },
+  "peerDependencies": {
+    "eslint": ">=7.4.0"
+  },
+  "dependencies": {
+    "eslint-plugin-eslint-comments": "^3.2.0",
+    "eslint-plugin-html": "^6.2.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-unicorn": "^40.0.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "2.5.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.6.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

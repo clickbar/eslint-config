@@ -32,6 +32,8 @@ module.exports = {
             files: '*.php',
             options: {
               tabWidth: 4,
+              phpVersion: '7.4',
+              printWidth: 100,
             },
           },
         ],

@@ -1,0 +1,30 @@
+{
+  "name": "@clickbar/eslint-config-typescript",
+  "version": "4.0.0-beta.0",
+  "description": "",
+  "keywords": [],
+  "license": "MIT",
+  "author": "Alexander von Studnitz <studnitz@hey.com> (https://github.com/studnitz/)",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint . --config=index.js"
+  },
+  "peerDependencies": {
+    "eslint": ">=7.4.0",
+    "typescript": ">=4.0.0"
+  },
+  "dependencies": {
+    "@clickbar/eslint-config-base": "^4.0.0-beta.0",
+    "@typescript-eslint/eslint-plugin": "^5.10.0",
+    "@typescript-eslint/parser": "^5.10.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.6.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

@@ -1,29 +1,17 @@
 {
-  "name": "@clickbar/eslint-config",
-  "version": "3.0.0",
+  "name": "@clickbar/eslint-config-monorepo",
+  "private": true,
+  "version": "0.0.0",
   "scripts": {
-    "lint": "eslint .",
-    "lint:fix": "eslint --fix"
+    "lint": "npx eslint --ext .js,.json,.vue --fix ."
   },
   "description": "eslint config used at clickbar.",
-  "main": "index.js",
   "repository": "https://github.com/clickbar/eslint-config.git",
   "author": "Alexander von Studnitz <alexander.von.studnitz@gmail.com>",
   "license": "MIT",
-  "peerDependencies": {
-    "eslint": "^7.10.0",
-    "eslint-config-prettier": "^6.0.0",
-    "eslint-plugin-cypress": "^2.8.1",
-    "eslint-plugin-prettier": "^3.1.0",
-    "eslint-plugin-vue": "^7.0.1",
-    "prettier": "^2.1.2"
-  },
   "devDependencies": {
-    "eslint": "^7.10.0",
-    "eslint-config-prettier": "^6.0.0",
-    "eslint-plugin-cypress": "^2.8.1",
-    "eslint-plugin-prettier": "^3.1.0",
-    "eslint-plugin-vue": "^7.0.1",
+    "eslint": "^8.7.0",
+    "lerna": "^4.0.0",
     "prettier": "^2.1.2"
   }
 }

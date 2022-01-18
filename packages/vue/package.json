@@ -1,0 +1,28 @@
+{
+  "name": "@clickbar/eslint-config-vue",
+  "version": "4.0.0-beta.0",
+  "description": "",
+  "keywords": [],
+  "license": "MIT",
+  "author": "Alexander von Studnitz <studnitz@hey.com> (https://github.com/studnitz/)",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint . --config=index.js"
+  },
+  "peerDependencies": {
+    "eslint": ">=7.4.0"
+  },
+  "dependencies": {
+    "@clickbar/eslint-config-ts": "^4.0.0-beta.0",
+    "eslint-plugin-vue": "^8.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.6.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
