@@ -14,6 +14,7 @@ module.exports = {
       { prefer: 'type-imports', disallowTypeAnnotations: false },
     ],
     '@typescript-eslint/no-explicit-any': 'off',
+    '@typescript-eslint/explicit-function-return-type': 'off',
     '@typescript-eslint/ban-ts-ignore': 'off',
     '@typescript-eslint/ban-types': 'off',
   },

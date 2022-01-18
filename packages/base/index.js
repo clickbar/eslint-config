@@ -31,6 +31,16 @@ module.exports = {
     'import/no-unresolved': 'off',
     'import/no-absolute-path': 'off',
 
+    'unicorn/prevent-abbreviations': [
+      'error',
+      { replacements: { props: false } }
+    ],
+    "unicorn/filename-case": [
+      "error",
+      { "cases": { "kebabCase": true, "pascalCase": true, "camelCase": true } }
+    ],
+    'unicorn/no-null': 'off',
+
     'no-console': 'off',
     'no-debugger': 'off',
     'no-unused-vars': ['error', { argsIgnorePattern: '^_' }],
