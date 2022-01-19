@@ -19,7 +19,7 @@ module.exports = {
       },
     },
   ],
-  extends: ['plugin:vue/vue3-recommended', '@clickbar/eslint-config-ts'],
+  extends: ['plugin:vue/vue3-recommended', '@clickbar/eslint-config-typescript'],
   rules: {
     'vue/max-attributes-per-line': 'off',
     'vue/no-v-html': 'off',
