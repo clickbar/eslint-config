@@ -1,5 +1,11 @@
 # @clickbar/eslint-config-vue
 
+## 4.0.1
+
+### Patch Changes
+
+- Fix extends typescript
+
 ## 4.0.0
 
 ### Patch Changes
