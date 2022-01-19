@@ -5,7 +5,13 @@ module.exports = {
     '@clickbar/eslint-config-base',
     'plugin:@typescript-eslint/recommended',
   ],
-  overrides: base.overrides,
+  overrides: [
+    ...base.overrides,
+    {
+      files: ['*.ts', '*.tsx'],
+      parserOptions: { project: ['./tsconfig.json'] },
+    },
+  ],
   rules: {
     'import/named': 'off',
 
