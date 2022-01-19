@@ -1,5 +1,11 @@
 # @clickbar/eslint-config-typescript
 
+## 4.0.1
+
+### Patch Changes
+
+- Fix typescript parser options
+
 ## 4.0.0
 
 ### Patch Changes

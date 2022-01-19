@@ -1,5 +1,13 @@
 # @clickbar/eslint-config-vue
 
+## 4.0.2
+
+### Patch Changes
+
+- Fix typescript parser options
+- Updated dependencies
+  - @clickbar/eslint-config-typescript@4.0.1
+
 ## 4.0.1
 
 ### Patch Changes
