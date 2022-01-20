@@ -1,5 +1,11 @@
 # @clickbar/eslint-config-vue
 
+## 4.1.0
+
+### Minor Changes
+
+- Add more vue eslint rules
+
 ## 4.0.2
 
 ### Patch Changes
