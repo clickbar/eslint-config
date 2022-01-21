@@ -35,7 +35,6 @@ module.exports = {
     'vue/no-empty-component-block': 'error',
     'vue/no-expose-after-await': 'error',
     'vue/no-multiple-objects-in-class': 'error',
-    'vue/no-template-target-blank': 'error',
     'vue/no-useless-mustaches': 'error',
     'vue/no-useless-v-bind': 'error',
     'vue/padding-line-between-blocks': 'error',
