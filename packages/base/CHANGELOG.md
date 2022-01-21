@@ -1,5 +1,11 @@
 # @clickbar/eslint-config-base
 
+## 4.0.1
+
+### Patch Changes
+
+- Fix missing eslint-config-prettier
+
 ## 4.0.0
 
 ### Patch Changes
