@@ -1,5 +1,11 @@
 # @clickbar/eslint-config-vue
 
+## 4.2.0
+
+### Minor Changes
+
+- Remove unneeded vue target blank rule
+
 ## 4.1.0
 
 ### Minor Changes
