@@ -48,6 +48,7 @@ importers:
   packages/base:
     specifiers:
       eslint: ^8.6.0
+      eslint-config-prettier: ^8.3.0
       eslint-plugin-eslint-comments: ^3.2.0
       eslint-plugin-html: ^6.2.0
       eslint-plugin-import: ^2.25.4
@@ -56,10 +57,11 @@ importers:
       eslint-plugin-unicorn: ^40.0.0
       prettier: 2.5.1
     dependencies:
+      eslint-config-prettier: 8.3.0_eslint@8.7.0
       eslint-plugin-eslint-comments: 3.2.0_eslint@8.7.0
       eslint-plugin-html: 6.2.0
       eslint-plugin-import: 2.25.4_eslint@8.7.0
-      eslint-plugin-prettier: 4.0.0_eslint@8.7.0+prettier@2.5.1
+      eslint-plugin-prettier: 4.0.0_4660519532e4c3b0a9e5bb6623cfedf6
       eslint-plugin-promise: 6.0.0_eslint@8.7.0
       eslint-plugin-unicorn: 40.1.0_eslint@8.7.0
       prettier: 2.5.1
@@ -975,6 +977,15 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
+  /eslint-config-prettier/8.3.0_eslint@8.7.0:
+    resolution: {integrity: sha512-BgZuLUSeKzvlL/VUjx/Yb787VQ26RU3gGjA3iiFvdsp/2bMfVIWUVP7tjxtjS0e+HP409cPlPvNkQloz8C91ew==}
+    hasBin: true
+    peerDependencies:
+      eslint: '>=7.0.0'
+    dependencies:
+      eslint: 8.7.0
+    dev: false
+
   /eslint-import-resolver-node/0.3.6:
     resolution: {integrity: sha512-0En0w03NRVMn9Uiyn8YRPDKvWjxCWkslUEhGNTdGx15RvPJYQ+lbOlqrlNI2vEAs4pDYK4f/HN2TbDmk5TP0iw==}
     dependencies:
@@ -1027,6 +1038,23 @@ packages:
       object.values: 1.1.5
       resolve: 1.21.0
       tsconfig-paths: 3.12.0
+    dev: false
+
+  /eslint-plugin-prettier/4.0.0_4660519532e4c3b0a9e5bb6623cfedf6:
+    resolution: {integrity: sha512-98MqmCJ7vJodoQK359bqQWaxOE0CS8paAz/GgjaZLyex4TTk3g9HugoO89EqWCrFiOqn9EVvcoo7gZzONCWVwQ==}
+    engines: {node: '>=6.0.0'}
+    peerDependencies:
+      eslint: '>=7.28.0'
+      eslint-config-prettier: '*'
+      prettier: '>=2.0.0'
+    peerDependenciesMeta:
+      eslint-config-prettier:
+        optional: true
+    dependencies:
+      eslint: 8.7.0
+      eslint-config-prettier: 8.3.0_eslint@8.7.0
+      prettier: 2.5.1
+      prettier-linter-helpers: 1.0.0
     dev: false
 
   /eslint-plugin-prettier/4.0.0_eslint@8.7.0+prettier@2.5.1:
