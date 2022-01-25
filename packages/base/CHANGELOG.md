@@ -1,5 +1,11 @@
 # @clickbar/eslint-config-base
 
+## 4.1.0
+
+### Minor Changes
+
+- Add prettier-plugin-tailwindcss
+
 ## 4.0.1
 
 ### Patch Changes

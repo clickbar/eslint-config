@@ -56,6 +56,7 @@ importers:
       eslint-plugin-promise: ^6.0.0
       eslint-plugin-unicorn: ^40.0.0
       prettier: 2.5.1
+      prettier-plugin-tailwindcss: ^0.1.3
     dependencies:
       eslint-config-prettier: 8.3.0_eslint@8.7.0
       eslint-plugin-eslint-comments: 3.2.0_eslint@8.7.0
@@ -65,6 +66,7 @@ importers:
       eslint-plugin-promise: 6.0.0_eslint@8.7.0
       eslint-plugin-unicorn: 40.1.0_eslint@8.7.0
       prettier: 2.5.1
+      prettier-plugin-tailwindcss: 0.1.3_prettier@2.5.1
     devDependencies:
       eslint: 8.7.0
 
@@ -2124,6 +2126,14 @@ packages:
     engines: {node: '>=6.0.0'}
     dependencies:
       fast-diff: 1.2.0
+    dev: false
+
+  /prettier-plugin-tailwindcss/0.1.3_prettier@2.5.1:
+    resolution: {integrity: sha512-k+X4HfaLHXwGlu3JdW6XahQIk3lvzBtx2F2jSMFmOU6Mqll9dhZdGz1MJFAHxzvLxEWvMWZQA4MmCIhsDid5Kg==}
+    peerDependencies:
+      prettier: '>=2.2.0'
+    dependencies:
+      prettier: 2.5.1
     dev: false
 
   /prettier/1.19.1:
