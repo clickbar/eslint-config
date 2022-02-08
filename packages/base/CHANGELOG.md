@@ -1,5 +1,11 @@
 # @clickbar/eslint-config-base
 
+## 4.1.1
+
+### Patch Changes
+
+- Fix parser issues
+
 ## 4.1.0
 
 ### Minor Changes
