@@ -20,10 +20,7 @@ module.exports = {
   rules: {
     'vue/max-attributes-per-line': 'off',
     'vue/no-v-html': 'off',
-    'vue/block-lang': [
-      'error',
-      { 'script': { 'lang': 'ts' } },
-    ],
+    'vue/block-lang': ['error', { script: { lang: 'ts' } }],
     'vue/component-api-style': [
       'error',
       ['script-setup'], // 'script-setup', 'composition', 'composition-vue2', or 'options'
