@@ -1,10 +1,7 @@
 const base = require('@clickbar/eslint-config-base')
 
 module.exports = {
-  extends: [
-    '@clickbar/eslint-config-base',
-    'plugin:@typescript-eslint/recommended',
-  ],
+  extends: ['@clickbar/eslint-config-base', 'plugin:@typescript-eslint/recommended'],
   overrides: [
     ...base.overrides,
     {
