@@ -31,14 +31,12 @@ module.exports = {
     'import/no-unresolved': 'off',
     'import/no-absolute-path': 'off',
 
-    'unicorn/prevent-abbreviations': [
+    'unicorn/prevent-abbreviations': ['error', { replacements: { props: false } }],
+    'unicorn/filename-case': [
       'error',
-      { replacements: { props: false } }
+      { cases: { kebabCase: true, pascalCase: true, camelCase: true } },
     ],
-    "unicorn/filename-case": [
-      "error",
-      { "cases": { "kebabCase": true, "pascalCase": true, "camelCase": true } }
-    ],
+    'unicorn/prefer-module': 'off',
     'unicorn/no-null': 'off',
 
     'no-console': 'off',
