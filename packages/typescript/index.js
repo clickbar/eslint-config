@@ -10,6 +10,12 @@ module.exports = {
     {
       files: ['*.ts', '*.tsx'],
       parserOptions: { project: ['./tsconfig.json'] },
+      rules: {
+        '@typescript-eslint/prefer-nullish-coalescing': 'warn',
+        '@typescript-eslint/prefer-readonly': 'warn',
+        '@typescript-eslint/prefer-string-starts-ends-with': 'error',
+        '@typescript-eslint/strict-boolean-expressions': 'warn',
+      },
     },
   ],
   rules: {
@@ -22,11 +28,7 @@ module.exports = {
     ],
     '@typescript-eslint/explicit-function-return-type': 'off',
     '@typescript-eslint/prefer-literal-enum-member': 'error',
-    '@typescript-eslint/prefer-nullish-coalescing': 'warn',
     '@typescript-eslint/prefer-optional-chain': 'warn',
-    '@typescript-eslint/prefer-readonly': 'warn',
-    '@typescript-eslint/prefer-string-starts-ends-with': 'error',
     '@typescript-eslint/prefer-ts-expect-error': 'error',
-    '@typescript-eslint/strict-boolean-expressions': 'warn',
   },
 }
