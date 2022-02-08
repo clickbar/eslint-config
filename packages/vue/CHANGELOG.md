@@ -1,5 +1,13 @@
 # @clickbar/eslint-config-vue
 
+## 4.2.3
+
+### Patch Changes
+
+- Fix typescript override rules
+- Updated dependencies
+  - @clickbar/eslint-config-typescript@4.0.4
+
 ## 4.2.2
 
 ### Patch Changes
