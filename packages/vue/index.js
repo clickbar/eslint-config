@@ -27,6 +27,18 @@ module.exports = {
     'vue/component-options-name-casing': ['error', 'PascalCase'],
     'vue/custom-event-name-casing': ['error', 'camelCase'],
     'vue/html-button-has-type': 'error',
+    'vue/html-self-closing': [
+      'error',
+      {
+        html: {
+          void: 'never',
+          normal: 'always',
+          component: 'always',
+        },
+        svg: 'always',
+        math: 'always',
+      },
+    ],
     'vue/next-tick-style': ['error', 'promise'],
     'vue/no-empty-component-block': 'error',
     'vue/no-expose-after-await': 'error',
