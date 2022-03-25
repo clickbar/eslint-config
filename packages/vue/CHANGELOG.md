@@ -1,5 +1,11 @@
 # @clickbar/eslint-config-vue
 
+## 4.3.0
+
+### Minor Changes
+
+- Add vue/html-self-closing rule
+
 ## 4.2.4
 
 ### Patch Changes
