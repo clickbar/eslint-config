@@ -1,5 +1,11 @@
 # @clickbar/eslint-config-vue
 
+## 4.4.0
+
+### Minor Changes
+
+- Update vue rules. Add tailwindcss-eslint.
+
 ## 4.3.0
 
 ### Minor Changes
