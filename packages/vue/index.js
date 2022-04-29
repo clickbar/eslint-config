@@ -15,8 +15,14 @@ module.exports = {
       },
     },
   ],
+  plugins: ['tailwindcss'],
   extends: ['plugin:vue/vue3-recommended', '@clickbar/eslint-config-typescript'],
   rules: {
+    'tailwindcss/enforces-negative-arbitrary-values': 'warn',
+    'tailwindcss/enforces-shorthand': 'warn',
+    'tailwindcss/migration-from-tailwind-2': 'warn',
+    'tailwindcss/no-contradicting-classname': 'error',
+
     'vue/max-attributes-per-line': 'off',
     'vue/no-v-html': 'off',
     'vue/block-lang': ['error', { script: { lang: 'ts' } }],
