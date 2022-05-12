@@ -1,5 +1,11 @@
 # @clickbar/eslint-config-base
 
+## 4.1.2
+
+### Patch Changes
+
+- Update unicorn/prevent-abbreviations
+
 ## 4.1.1
 
 ### Patch Changes
