@@ -31,7 +31,7 @@ module.exports = {
     'import/no-unresolved': 'off',
     'import/no-absolute-path': 'off',
 
-    'unicorn/prevent-abbreviations': ['error', { replacements: { props: false } }],
+    'unicorn/prevent-abbreviations': ['error', { replacements: { props: false, ref: false } }],
     'unicorn/filename-case': [
       'error',
       { cases: { kebabCase: true, pascalCase: true, camelCase: true } },
