@@ -1,5 +1,11 @@
 # @clickbar/eslint-config-base
 
+## 4.1.3
+
+### Patch Changes
+
+- Bump dependencies
+
 ## 4.1.2
 
 ### Patch Changes

@@ -1,5 +1,13 @@
 # @clickbar/eslint-config
 
+## 4.0.13
+
+### Patch Changes
+
+- Bump dependencies
+- Updated dependencies
+  - @clickbar/eslint-config-vue@4.4.3
+
 ## 4.0.12
 
 ### Patch Changes
