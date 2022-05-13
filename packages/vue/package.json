@@ -13,7 +13,7 @@
     "lint": "eslint . --config=index.js"
   },
   "peerDependencies": {
-    "eslint": ">=7.4.0"
+    "eslint": ">=8.7.0"
   },
   "dependencies": {
     "@clickbar/eslint-config-typescript": "workspace:*",
@@ -21,7 +21,7 @@
     "eslint-plugin-vue": "^8.7.1"
   },
   "devDependencies": {
-    "eslint": "^8.14.0"
+    "eslint": "^8.15.0"
   },
   "publishConfig": {
     "access": "public"
