@@ -1,5 +1,11 @@
 # @clickbar/eslint-config-typescript
 
+## 4.0.8
+
+### Patch Changes
+
+- Fix extends ordering in ts
+
 ## 4.0.7
 
 ### Patch Changes
