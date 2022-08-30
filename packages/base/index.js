@@ -36,8 +36,9 @@ module.exports = {
       'error',
       { cases: { kebabCase: true, pascalCase: true, camelCase: true } },
     ],
-    'unicorn/prefer-module': 'off',
     'unicorn/no-null': 'off',
+    'unicorn/no-useless-undefined': 'off',
+    'unicorn/prefer-module': 'off',
 
     'no-console': 'off',
     'no-debugger': 'off',
