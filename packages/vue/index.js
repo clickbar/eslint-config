@@ -16,7 +16,11 @@ module.exports = {
     },
   ],
   plugins: ['tailwindcss'],
-  extends: ['plugin:vue/vue3-recommended', '@clickbar/eslint-config-typescript'],
+  extends: [
+    'plugin:vue/vue3-recommended',
+    '@clickbar/eslint-config-typescript',
+    'plugin:prettier/recommended'
+  ],
   rules: {
     'tailwindcss/enforces-negative-arbitrary-values': 'warn',
     'tailwindcss/enforces-shorthand': 'warn',

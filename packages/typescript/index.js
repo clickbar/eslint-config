@@ -1,7 +1,11 @@
 const base = require('@clickbar/eslint-config-base')
 
 module.exports = {
-  extends: ['plugin:@typescript-eslint/recommended', '@clickbar/eslint-config-base'],
+  extends: [
+    '@clickbar/eslint-config-base',
+    'plugin:@typescript-eslint/recommended',
+    'plugin:prettier/recommended'
+  ],
   overrides: [
     ...base.overrides,
     {
@@ -17,7 +21,6 @@ module.exports = {
   ],
   rules: {
     'import/named': 'off',
-    'no-unused-vars': 'off',
 
     '@typescript-eslint/ban-ts-ignore': 'off',
     '@typescript-eslint/consistent-type-imports': [
