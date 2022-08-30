@@ -17,6 +17,7 @@ module.exports = {
   ],
   rules: {
     'import/named': 'off',
+    'no-unused-vars': 'off',
 
     '@typescript-eslint/ban-ts-ignore': 'off',
     '@typescript-eslint/consistent-type-imports': [
