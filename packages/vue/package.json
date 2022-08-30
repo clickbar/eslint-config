@@ -17,11 +17,11 @@
   },
   "dependencies": {
     "@clickbar/eslint-config-typescript": "workspace:*",
-    "eslint-plugin-tailwindcss": "^3.5.0",
-    "eslint-plugin-vue": "^8.7.1"
+    "eslint-plugin-tailwindcss": "^3.6.0",
+    "eslint-plugin-vue": "^9.4.0"
   },
   "devDependencies": {
-    "eslint": "^8.15.0"
+    "eslint": "^8.23.0"
   },
   "publishConfig": {
     "access": "public"
