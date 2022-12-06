@@ -1,5 +1,13 @@
 # @clickbar/eslint-config-vue
 
+## 4.5.1
+
+### Patch Changes
+
+- Change rule orderings, add prettier always last
+- Updated dependencies
+  - @clickbar/eslint-config-typescript@4.0.10
+
 ## 4.5.0
 
 ### Minor Changes

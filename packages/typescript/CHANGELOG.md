@@ -1,5 +1,11 @@
 # @clickbar/eslint-config-typescript
 
+## 4.0.10
+
+### Patch Changes
+
+- Change rule orderings, add prettier always last
+
 ## 4.0.9
 
 ### Patch Changes
