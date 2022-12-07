@@ -1,10 +1,11 @@
+// eslint-disable-next-line @typescript-eslint/no-var-requires
 const base = require('@clickbar/eslint-config-base')
 
 module.exports = {
   extends: [
     '@clickbar/eslint-config-base',
     'plugin:@typescript-eslint/recommended',
-    'plugin:prettier/recommended'
+    'plugin:prettier/recommended',
   ],
   overrides: [
     ...base.overrides,

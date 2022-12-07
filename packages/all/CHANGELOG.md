@@ -1,5 +1,17 @@
 # @clickbar/eslint-config
 
+## 4.1.0
+
+### Minor Changes
+
+- Updated dependencies
+- Fix typescript missing as peer dependency
+
+### Patch Changes
+
+- Updated dependencies
+  - @clickbar/eslint-config-vue@4.6.0
+
 ## 4.0.16
 
 ### Patch Changes

@@ -1,5 +1,12 @@
 # @clickbar/eslint-config-typescript
 
+## 4.1.0
+
+### Minor Changes
+
+- Updated dependencies
+- Fix typescript missing as dev dependency
+
 ## 4.0.10
 
 ### Patch Changes

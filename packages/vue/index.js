@@ -19,7 +19,7 @@ module.exports = {
   extends: [
     'plugin:vue/vue3-recommended',
     '@clickbar/eslint-config-typescript',
-    'plugin:prettier/recommended'
+    'plugin:prettier/recommended',
   ],
   rules: {
     'tailwindcss/enforces-negative-arbitrary-values': 'warn',
