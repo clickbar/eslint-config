@@ -23,7 +23,6 @@ module.exports = {
   rules: {
     'import/named': 'off',
 
-    '@typescript-eslint/ban-ts-ignore': 'off',
     '@typescript-eslint/consistent-type-imports': [
       'error',
       { prefer: 'type-imports', disallowTypeAnnotations: false },
