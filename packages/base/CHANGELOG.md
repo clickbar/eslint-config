@@ -1,5 +1,11 @@
 # @clickbar/eslint-config-base
 
+## 4.2.1
+
+### Patch Changes
+
+- Update import order configuration
+
 ## 4.2.0
 
 ### Minor Changes

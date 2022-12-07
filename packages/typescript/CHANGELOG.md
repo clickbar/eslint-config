@@ -1,5 +1,13 @@
 # @clickbar/eslint-config-typescript
 
+## 4.1.1
+
+### Patch Changes
+
+- Remove removed ban-ts-ignore rule
+- Updated dependencies
+  - @clickbar/eslint-config-base@4.2.1
+
 ## 4.1.0
 
 ### Minor Changes
