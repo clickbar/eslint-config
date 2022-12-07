@@ -15,6 +15,7 @@ module.exports = {
     'import/resolver': {
       node: { extensions: ['.js', '.mjs', '.ts', '.d.ts'] },
     },
+    'import/internal-regex': '^(@/)',
   },
   overrides: [
     {

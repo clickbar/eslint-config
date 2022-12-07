@@ -1,5 +1,11 @@
 # @clickbar/eslint-config-base
 
+## 4.2.2
+
+### Patch Changes
+
+- Adjust import internal regex
+
 ## 4.2.1
 
 ### Patch Changes
