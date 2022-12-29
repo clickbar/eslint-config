@@ -70,6 +70,7 @@ module.exports = {
         semi: false,
         singleQuote: true,
         tabWidth: 2,
+        plugins: ['prettier-plugin-tailwindcss'],
       },
     ],
   },
