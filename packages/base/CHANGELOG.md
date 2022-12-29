@@ -1,5 +1,11 @@
 # @clickbar/eslint-config-base
 
+## 4.2.4
+
+### Patch Changes
+
+- Fix: explicitly enable tailwind prettier plugin for pnpm projects. See https://github.com/prettier/prettier/issues/8056
+
 ## 4.2.3
 
 ### Patch Changes
