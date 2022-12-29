@@ -10,6 +10,9 @@
     "eslint": ">=8.7.0",
     "typescript": ">=4.0.0"
   },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
   "dependencies": {
     "@clickbar/eslint-config-vue": "workspace:*",
     "@typescript-eslint/eslint-plugin": "^5.47.1",

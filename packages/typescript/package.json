@@ -16,6 +16,10 @@
     "eslint": ">=7.4.0",
     "typescript": ">=4.0.0"
   },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org",
+    "access": "public"
+  },
   "dependencies": {
     "@clickbar/eslint-config-base": "workspace:*",
     "@typescript-eslint/eslint-plugin": "^5.47.1",
@@ -24,8 +28,5 @@
   "devDependencies": {
     "eslint": "^8.30.0",
     "typescript": "^4.9.4"
-  },
-  "publishConfig": {
-    "access": "public"
   }
 }

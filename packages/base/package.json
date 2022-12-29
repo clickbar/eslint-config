@@ -15,6 +15,10 @@
   "peerDependencies": {
     "eslint": ">=8.7.0"
   },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org",
+    "access": "public"
+  },
   "dependencies": {
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-eslint-comments": "^3.2.0",
@@ -28,8 +32,5 @@
   },
   "devDependencies": {
     "eslint": "^8.30.0"
-  },
-  "publishConfig": {
-    "access": "public"
   }
 }
