@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-var-requires */
 module.exports = {
   globals: {
     defineProps: 'readonly',
@@ -12,6 +13,10 @@ module.exports = {
       parserOptions: {
         parser: '@typescript-eslint/parser',
         extraFileExtensions: ['.vue'],
+      },
+      rules: {
+        ...require('@typescript-eslint/eslint-plugin/dist/configs/eslint-recommended').overrides[0]
+          .rules,
       },
     },
   ],
