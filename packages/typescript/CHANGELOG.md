@@ -1,5 +1,18 @@
 # @clickbar/eslint-config-typescript
 
+## 4.2.0
+
+### Minor Changes
+
+- 7eedacc: Use ts override rules also for mts & cts files
+
+### Patch Changes
+
+- 44d8399: Disable recommended eslint rules for typescript files
+- a9f5814: Dependency updates
+- Updated dependencies [a9f5814]
+  - @clickbar/eslint-config-base@4.2.5
+
 ## 4.1.4
 
 ### Patch Changes

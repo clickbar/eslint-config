@@ -1,5 +1,16 @@
 # @clickbar/eslint-config-vue
 
+## 4.6.5
+
+### Patch Changes
+
+- 44d8399: Disable recommended eslint rules for typescript files
+- a9f5814: Dependency updates
+- Updated dependencies [44d8399]
+- Updated dependencies [7eedacc]
+- Updated dependencies [a9f5814]
+  - @clickbar/eslint-config-typescript@4.2.0
+
 ## 4.6.4
 
 ### Patch Changes

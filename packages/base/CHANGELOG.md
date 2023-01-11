@@ -1,5 +1,11 @@
 # @clickbar/eslint-config-base
 
+## 4.2.5
+
+### Patch Changes
+
+- a9f5814: Dependency updates
+
 ## 4.2.4
 
 ### Patch Changes
