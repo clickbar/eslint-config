@@ -1,6 +1,6 @@
 {
   "name": "@clickbar/eslint-config-vue",
-  "version": "4.6.5",
+  "version": "4.7.0",
   "description": "",
   "keywords": [],
   "license": "MIT",
@@ -21,10 +21,10 @@
   },
   "dependencies": {
     "@clickbar/eslint-config-typescript": "workspace:*",
-    "eslint-plugin-tailwindcss": "^3.8.0",
-    "eslint-plugin-vue": "^9.8.0"
+    "eslint-plugin-tailwindcss": "^3.10.1",
+    "eslint-plugin-vue": "^9.9.0"
   },
   "devDependencies": {
-    "eslint": "^8.31.0"
+    "eslint": "^8.36.0"
   }
 }
