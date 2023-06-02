@@ -32,5 +32,8 @@ module.exports = {
     '@typescript-eslint/prefer-literal-enum-member': 'error',
     '@typescript-eslint/prefer-optional-chain': 'warn',
     '@typescript-eslint/prefer-ts-expect-error': 'error',
+
+    // handled by unused-imports/no-unused-imports
+    '@typescript-eslint/no-unused-vars': 'off',
   },
 }
