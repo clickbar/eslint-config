@@ -1,5 +1,17 @@
 # @clickbar/eslint-config-vue
 
+## 5.0.0
+
+### Major Changes
+
+- 7841365: Update dependencies & require eslint>=8.38.0
+
+### Patch Changes
+
+- Updated dependencies [7841365]
+- Updated dependencies [3d5e029]
+  - @clickbar/eslint-config-typescript@5.0.0
+
 ## 4.7.0
 
 ### Minor Changes

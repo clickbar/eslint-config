@@ -1,5 +1,15 @@
 # @clickbar/eslint-config-base
 
+## 5.0.0
+
+### Major Changes
+
+- 7841365: Update dependencies & require eslint>=8.38.0
+
+### Minor Changes
+
+- 3d5e029: feat: Add unused imports plugin
+
 ## 4.3.0
 
 ### Minor Changes
