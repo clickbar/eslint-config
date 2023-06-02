@@ -13,7 +13,7 @@
     "lint": "eslint . --config=index.js"
   },
   "peerDependencies": {
-    "eslint": ">=8.7.0"
+    "eslint": ">=8.38.0"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org",
@@ -21,10 +21,10 @@
   },
   "dependencies": {
     "@clickbar/eslint-config-typescript": "workspace:*",
-    "eslint-plugin-tailwindcss": "^3.10.1",
-    "eslint-plugin-vue": "^9.9.0"
+    "eslint-plugin-tailwindcss": "^3.12.1",
+    "eslint-plugin-vue": "^9.14.1"
   },
   "devDependencies": {
-    "eslint": "^8.36.0"
+    "eslint": "^8.41.0"
   }
 }

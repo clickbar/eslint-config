@@ -11,10 +11,10 @@
   "author": "Alexander von Studnitz <alexander.von.studnitz@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "@changesets/cli": "^2.26.0",
+    "@changesets/cli": "^2.26.1",
     "@clickbar/eslint-config": "workspace:*",
-    "eslint": "^8.36.0",
-    "prettier": "^2.8.4",
-    "typescript": "^4.9.5"
+    "eslint": "^8.41.0",
+    "prettier": "^2.8.8",
+    "typescript": "^5.1.3"
   }
 }
