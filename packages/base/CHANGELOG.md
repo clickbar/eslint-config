@@ -1,5 +1,11 @@
 # @clickbar/eslint-config-base
 
+## 5.0.1
+
+### Patch Changes
+
+- 58d95dc: Update dependencies
+
 ## 5.0.0
 
 ### Major Changes

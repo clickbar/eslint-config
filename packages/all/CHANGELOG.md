@@ -1,5 +1,14 @@
 # @clickbar/eslint-config
 
+## 5.0.1
+
+### Patch Changes
+
+- 58d95dc: Update dependencies
+- Updated dependencies [58d95dc]
+- Updated dependencies
+  - @clickbar/eslint-config-vue@5.1.0
+
 ## 5.0.0
 
 ### Major Changes

@@ -1,5 +1,17 @@
 # @clickbar/eslint-config-vue
 
+## 5.1.0
+
+### Minor Changes
+
+- Update vue eslint rules
+
+### Patch Changes
+
+- 58d95dc: Update dependencies
+- Updated dependencies [58d95dc]
+  - @clickbar/eslint-config-typescript@5.0.1
+
 ## 5.0.0
 
 ### Major Changes
