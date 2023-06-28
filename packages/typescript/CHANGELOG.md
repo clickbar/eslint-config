@@ -1,5 +1,11 @@
 # @clickbar/eslint-config-typescript
 
+## 5.1.0
+
+### Minor Changes
+
+- 35493b1: Ignore eslint-plugin-import rules for typescript
+
 ## 5.0.1
 
 ### Patch Changes
