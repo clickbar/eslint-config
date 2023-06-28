@@ -1,5 +1,12 @@
 # @clickbar/eslint-config-vue
 
+## 5.1.2
+
+### Patch Changes
+
+- c0c682e: enforce script, template, style component tag order
+- 16afed2: fix: disable vue/v-on-handler-style
+
 ## 5.1.1
 
 ### Patch Changes
