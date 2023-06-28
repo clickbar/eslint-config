@@ -87,7 +87,7 @@ module.exports = {
     'vue/require-macro-variable-name': 'error',
     'vue/require-typed-ref': 'error',
     'vue/v-for-delimiter-style': 'error',
-    'vue/v-on-handler-style': 'error',
+    'vue/v-on-handler-style': 'off',
     'vue/valid-define-options': 'error',
   },
 }
