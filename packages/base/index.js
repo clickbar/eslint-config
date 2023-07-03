@@ -50,10 +50,18 @@ module.exports = {
     'unused-imports/no-unused-imports': 'error',
     'unused-imports/no-unused-vars': [
       'warn',
-      { vars: 'all', varsIgnorePattern: '^_', args: 'after-used', argsIgnorePattern: '^_' },
+      {
+        vars: 'all',
+        varsIgnorePattern: '^_',
+        args: 'after-used',
+        argsIgnorePattern: '^_',
+      },
     ],
 
-    'unicorn/prevent-abbreviations': ['error', { replacements: { props: false, ref: false } }],
+    'unicorn/prevent-abbreviations': [
+      'error',
+      { replacements: { props: false, ref: false, attrs: false } },
+    ],
     'unicorn/filename-case': [
       'error',
       { cases: { kebabCase: true, pascalCase: true, camelCase: true } },
