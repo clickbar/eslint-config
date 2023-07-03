@@ -1,5 +1,11 @@
 # @clickbar/eslint-config-base
 
+## 5.0.2
+
+### Patch Changes
+
+- 3923659: Exclude `attrs` from `unicorn/prevent-abbreviations`. Fix #20.
+
 ## 5.0.1
 
 ### Patch Changes

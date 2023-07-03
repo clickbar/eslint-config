@@ -1,5 +1,11 @@
 # @clickbar/eslint-config-vue
 
+## 5.1.3
+
+### Patch Changes
+
+- @clickbar/eslint-config-typescript@5.1.1
+
 ## 5.1.2
 
 ### Patch Changes

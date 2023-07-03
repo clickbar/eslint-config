@@ -1,5 +1,12 @@
 # @clickbar/eslint-config-typescript
 
+## 5.1.1
+
+### Patch Changes
+
+- Updated dependencies [3923659]
+  - @clickbar/eslint-config-base@5.0.2
+
 ## 5.1.0
 
 ### Minor Changes
