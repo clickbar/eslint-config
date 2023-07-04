@@ -3,8 +3,11 @@
   "private": true,
   "version": "0.0.0",
   "scripts": {
-    "lint": "pnpm eslint --ext .js,.ts,.json,.vue .",
-    "fix": "pnpm eslint --ext .js,.ts,.json,.vue --fix ."
+    "fix": "pnpm lint --fix && pnpm format",
+    "format": "pnpm prettier --write",
+    "lint": "eslint .",
+    "prettier": "prettier . --cache",
+    "test": "pnpm lint && pnpm prettier --check"
   },
   "description": "eslint config used at clickbar.",
   "repository": "https://github.com/clickbar/eslint-config.git",

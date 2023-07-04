@@ -15,13 +15,17 @@ module.exports = {
         extraFileExtensions: ['.vue'],
       },
       rules: {
-        ...require('@typescript-eslint/eslint-plugin/dist/configs/eslint-recommended').overrides[0]
-          .rules,
+        ...require('@typescript-eslint/eslint-plugin/dist/configs/eslint-recommended')
+          .overrides[0].rules,
       },
     },
   ],
   plugins: ['tailwindcss'],
-  extends: ['plugin:vue/vue3-recommended', '@clickbar/eslint-config-typescript', 'prettier'],
+  extends: [
+    'plugin:vue/vue3-recommended',
+    '@clickbar/eslint-config-typescript',
+    'prettier',
+  ],
   rules: {
     'tailwindcss/enforces-negative-arbitrary-values': 'warn',
     'tailwindcss/enforces-shorthand': 'warn',
