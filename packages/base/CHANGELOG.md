@@ -1,5 +1,12 @@
 # @clickbar/eslint-config-base
 
+## 6.0.1
+
+### Patch Changes
+
+- edd6997: - Warn on unassigned imports to make them go last.
+  - Warn on console and debugger statements.
+
 ## 6.0.0
 
 ### Major Changes
