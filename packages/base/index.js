@@ -56,6 +56,7 @@ module.exports = {
           order: 'asc',
           caseInsensitive: true,
         },
+        warnOnUnassignedImports: true,
       },
     ],
     'import/first': 'error',
@@ -86,8 +87,8 @@ module.exports = {
     'unicorn/no-useless-undefined': 'off',
     'unicorn/prefer-module': 'off',
 
-    'no-console': 'off',
-    'no-debugger': 'off',
+    'no-console': 'warn',
+    'no-debugger': 'warn',
     'no-unused-vars': ['error', { argsIgnorePattern: '^_' }],
     'no-var': 'error',
     'object-shorthand': ['error', 'always'],
