@@ -50,7 +50,10 @@ module.exports = {
     'vue/component-options-name-casing': ['error', 'PascalCase'],
     'vue/custom-event-name-casing': ['error', 'camelCase'],
     'vue/define-emits-declaration': 'error',
-    'vue/define-macros-order': 'error',
+    'vue/define-macros-order': [
+      'error',
+      { order: ['defineOptions', 'defineProps', 'defineEmits', 'defineSlots'] },
+    ],
     'vue/define-props-declaration': 'error',
     'vue/html-button-has-type': 'error',
     'vue/html-comment-content-newline': 'warn',
