@@ -11,6 +11,21 @@ module.exports = {
     'plugin:import/recommended',
     'prettier',
   ],
+  ignorePatterns: [
+    '*.min.*',
+    '*.d.ts',
+    'CHANGELOG.md',
+    'dist',
+    'LICENSE*',
+    'public',
+    'storage',
+    'vendor',
+    'composer.json',
+    'composer.lock',
+    'package-lock.json',
+    'pnpm-lock.yaml',
+    'yarn.lock',
+  ],
   plugins: ['html', 'unused-imports'],
   settings: {
     'import/resolver': {
