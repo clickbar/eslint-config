@@ -1,5 +1,11 @@
 # @clickbar/eslint-config-vue
 
+## 6.1.0
+
+### Minor Changes
+
+- d3fb064: More strict vue/define-macros-order
+
 ## 6.0.1
 
 ### Patch Changes
