@@ -21,11 +21,7 @@ module.exports = {
     },
   ],
   plugins: ['tailwindcss'],
-  extends: [
-    'plugin:vue/vue3-recommended',
-    '@clickbar/eslint-config-typescript',
-    'plugin:prettier/recommended',
-  ],
+  extends: ['plugin:vue/vue3-recommended', '@clickbar/eslint-config-typescript', 'prettier'],
   rules: {
     'tailwindcss/enforces-negative-arbitrary-values': 'warn',
     'tailwindcss/enforces-shorthand': 'warn',
@@ -66,7 +62,7 @@ module.exports = {
       'error',
       {
         html: {
-          void: 'always',
+          void: 'any',
           normal: 'always',
           component: 'always',
         },
@@ -94,7 +90,6 @@ module.exports = {
     'vue/require-macro-variable-name': 'error',
     'vue/require-typed-ref': 'error',
     'vue/v-for-delimiter-style': 'error',
-    'vue/v-on-handler-style': 'off',
     'vue/valid-define-options': 'error',
   },
 }

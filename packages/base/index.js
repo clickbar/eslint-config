@@ -4,11 +4,12 @@ module.exports = {
     browser: true,
     node: true,
   },
+  reportUnusedDisableDirectives: true,
   extends: [
     'eslint:recommended',
     'plugin:unicorn/recommended',
     'plugin:import/recommended',
-    'plugin:prettier/recommended',
+    'prettier',
   ],
   plugins: ['html', 'unused-imports'],
   settings: {
@@ -76,16 +77,5 @@ module.exports = {
     'no-var': 'error',
     'object-shorthand': ['error', 'always'],
     'prefer-const': 'error',
-
-    'prettier/prettier': [
-      'error',
-      {
-        printWidth: 100,
-        semi: false,
-        singleQuote: true,
-        tabWidth: 2,
-        plugins: ['prettier-plugin-tailwindcss'],
-      },
-    ],
   },
 }
