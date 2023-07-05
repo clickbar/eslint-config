@@ -1,5 +1,11 @@
 # @clickbar/eslint-config-base
 
+## 6.0.3
+
+### Patch Changes
+
+- 75b1973: Fix missing repository url in package.json
+
 ## 6.0.2
 
 ### Patch Changes
