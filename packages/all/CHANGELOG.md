@@ -1,5 +1,13 @@
 # @clickbar/eslint-config
 
+## 6.0.3
+
+### Patch Changes
+
+- b51fdf3: pkg: Add provenance to publishConfig
+- Updated dependencies [b51fdf3]
+  - @clickbar/eslint-config-vue@6.1.1
+
 ## 6.0.2
 
 ### Patch Changes

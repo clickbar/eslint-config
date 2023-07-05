@@ -1,5 +1,13 @@
 # @clickbar/eslint-config-vue
 
+## 6.1.1
+
+### Patch Changes
+
+- b51fdf3: pkg: Add provenance to publishConfig
+- Updated dependencies [b51fdf3]
+  - @clickbar/eslint-config-typescript@6.0.2
+
 ## 6.1.0
 
 ### Minor Changes

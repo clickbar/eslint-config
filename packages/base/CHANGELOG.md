@@ -1,5 +1,11 @@
 # @clickbar/eslint-config-base
 
+## 6.0.2
+
+### Patch Changes
+
+- b51fdf3: pkg: Add provenance to publishConfig
+
 ## 6.0.1
 
 ### Patch Changes
