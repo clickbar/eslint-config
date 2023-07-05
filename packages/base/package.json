@@ -4,6 +4,7 @@
   "description": "",
   "keywords": [],
   "license": "MIT",
+  "repository": "https://github.com/clickbar/eslint-config.git",
   "author": "Alexander von Studnitz <studnitz@hey.com> (https://github.com/studnitz/)",
   "files": [
     "index.js"
