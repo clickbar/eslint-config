@@ -1,5 +1,13 @@
 # @clickbar/eslint-config-typescript
 
+## 6.0.3
+
+### Patch Changes
+
+- 75b1973: Fix missing repository url in package.json
+- Updated dependencies [75b1973]
+  - @clickbar/eslint-config-base@6.0.3
+
 ## 6.0.2
 
 ### Patch Changes
