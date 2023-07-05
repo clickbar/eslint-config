@@ -11,7 +11,9 @@
     "typescript": ">=4.0.0"
   },
   "publishConfig": {
-    "registry": "https://registry.npmjs.org"
+    "registry": "https://registry.npmjs.org",
+    "access": "public",
+    "provenance": true
   },
   "dependencies": {
     "@clickbar/eslint-config-vue": "workspace:*",
