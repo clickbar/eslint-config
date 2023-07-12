@@ -1,5 +1,11 @@
 # @clickbar/eslint-config-base
 
+## 6.1.0
+
+### Minor Changes
+
+- 7fa6ddc: Update dependencies, compatibility with Prettier 3
+
 ## 6.0.3
 
 ### Patch Changes

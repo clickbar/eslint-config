@@ -1,5 +1,16 @@
 # @clickbar/eslint-config-vue
 
+## 7.0.0
+
+### Major Changes
+
+- 7fa6ddc: Upgrade dependencies & adopt typescript-eslint v6 (now requires Typescript >= 4.2.4)
+
+### Patch Changes
+
+- Updated dependencies [7fa6ddc]
+  - @clickbar/eslint-config-typescript@7.0.0
+
 ## 6.1.2
 
 ### Patch Changes
