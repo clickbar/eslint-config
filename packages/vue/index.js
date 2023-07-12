@@ -9,8 +9,9 @@ module.exports = {
         extraFileExtensions: ['.vue'],
       },
       rules: {
-        ...require('@typescript-eslint/eslint-plugin/dist/configs/eslint-recommended')
-          .overrides[0].rules,
+        ...require('@typescript-eslint/eslint-plugin').configs[
+          'eslint-recommended'
+        ].overrides[0].rules,
       },
     },
   ],
