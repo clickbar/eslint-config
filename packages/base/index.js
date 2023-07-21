@@ -31,7 +31,7 @@ module.exports = {
     'import/resolver': {
       node: { extensions: ['.js', '.mjs', '.ts', '.d.ts'] },
     },
-    'import/internal-regex': '^(@/)',
+    'import/internal-regex': '^(@/)', // allow imports beginning with @/
   },
   overrides: [
     {
@@ -89,7 +89,6 @@ module.exports = {
 
     'no-console': 'warn',
     'no-debugger': 'warn',
-    'no-unused-vars': ['error', { argsIgnorePattern: '^_' }],
     'no-var': 'error',
     'object-shorthand': ['error', 'always'],
     'prefer-const': 'error',
