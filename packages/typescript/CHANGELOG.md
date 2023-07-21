@@ -1,5 +1,11 @@
 # @clickbar/eslint-config-typescript
 
+## 8.0.0
+
+### Major Changes
+
+- 2788298: Upgrade to more strict typescript rules
+
 ## 7.0.0
 
 ### Major Changes

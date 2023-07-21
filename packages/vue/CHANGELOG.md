@@ -1,5 +1,13 @@
 # @clickbar/eslint-config-vue
 
+## 7.0.1
+
+### Patch Changes
+
+- e69cd5f: Simplify vue config
+- Updated dependencies [2788298]
+  - @clickbar/eslint-config-typescript@8.0.0
+
 ## 7.0.0
 
 ### Major Changes
