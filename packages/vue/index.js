@@ -7,6 +7,13 @@ module.exports = {
       parserOptions: {
         parser: '@typescript-eslint/parser',
       },
+      rules: {
+        // This is needed because the config @typescript-eslint/eslint-recommended
+        // is not applied to .vue files, but we want to use it.
+        ...require('@typescript-eslint/eslint-plugin').configs[
+          'eslint-recommended'
+        ].overrides[0].rules,
+      },
     },
   ],
   plugins: ['tailwindcss'],
