@@ -1,5 +1,11 @@
 # @clickbar/eslint-config-vue
 
+## 7.0.2
+
+### Patch Changes
+
+- 042212f: Revert simplification and add explaining comment
+
 ## 7.0.1
 
 ### Patch Changes

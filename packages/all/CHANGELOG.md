@@ -1,5 +1,12 @@
 # @clickbar/eslint-config
 
+## 7.0.2
+
+### Patch Changes
+
+- Updated dependencies [042212f]
+  - @clickbar/eslint-config-vue@7.0.2
+
 ## 7.0.1
 
 ### Patch Changes
