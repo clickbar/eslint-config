@@ -28,10 +28,6 @@ module.exports = {
     },
   ],
   rules: {
-    // Disable check until compatibility is fixed
-    // See https://github.com/sindresorhus/eslint-plugin-unicorn/issues/2175
-    'unicorn/no-empty-file': 'off',
-
     'import/named': 'off',
     'import/namespace': 'off',
     'import/default': 'off',
