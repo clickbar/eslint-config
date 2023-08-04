@@ -1,5 +1,14 @@
 # @clickbar/eslint-config-typescript
 
+## 8.0.1
+
+### Patch Changes
+
+- b327205: Reenable unicorn/no-empty-file check
+- 2c1d843: Update Dependencies
+- Updated dependencies [2c1d843]
+  - @clickbar/eslint-config-base@6.1.1
+
 ## 8.0.0
 
 ### Major Changes
