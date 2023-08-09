@@ -85,7 +85,10 @@ module.exports = {
     'vue/no-useless-v-bind': 'error',
     'vue/no-v-text': 'error',
     'vue/padding-line-between-blocks': 'error',
-    'vue/padding-line-between-tags': 'error',
+    'vue/padding-line-between-tags': [
+      'error',
+      [{ blankLine: 'consistent', prev: '*', next: '*' }],
+    ],
     'vue/prefer-define-options': 'error',
     'vue/prefer-import-from-vue': 'warn',
     'vue/prefer-separate-static-class': 'error',
