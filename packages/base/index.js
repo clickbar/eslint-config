@@ -87,7 +87,7 @@ module.exports = {
     'unicorn/no-useless-undefined': 'off',
     'unicorn/prefer-module': 'off',
 
-    'no-console': 'warn',
+    'no-console': ['warn', { allow: ['warn', 'error'] }],
     'no-debugger': 'warn',
     'no-var': 'error',
     'object-shorthand': ['error', 'always'],
