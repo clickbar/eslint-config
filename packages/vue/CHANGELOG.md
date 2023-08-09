@@ -1,5 +1,11 @@
 # @clickbar/eslint-config-vue
 
+## 7.0.4
+
+### Patch Changes
+
+- f3e3559: Use consistent padding between tags instead of always.
+
 ## 7.0.3
 
 ### Patch Changes
