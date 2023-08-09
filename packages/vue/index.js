@@ -50,7 +50,12 @@ module.exports = {
       { registeredComponentsOnly: false },
     ],
     'vue/component-options-name-casing': ['error', 'PascalCase'],
-    'vue/custom-event-name-casing': ['error', 'camelCase'],
+    'vue/custom-event-name-casing': [
+      'error',
+      'camelCase',
+      // Allow names with ':' eg. click:positive
+      { ignores: ['/^[a-z]+(?:-[a-z]+)*:[a-z]+(?:-[a-z]+)*$/u'] },
+    ],
     'vue/define-emits-declaration': 'error',
     'vue/define-macros-order': [
       'error',
