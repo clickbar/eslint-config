@@ -1,5 +1,11 @@
 # @clickbar/eslint-config-base
 
+## 6.1.2
+
+### Patch Changes
+
+- 2e50dc7: Allow console warn or error statements
+
 ## 6.1.1
 
 ### Patch Changes

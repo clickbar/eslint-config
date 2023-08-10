@@ -1,5 +1,14 @@
 # @clickbar/eslint-config-vue
 
+## 7.0.5
+
+### Patch Changes
+
+- 9620636: Update dependencies
+- bab2d4e: Allow event names with ':'
+- Updated dependencies [9620636]
+  - @clickbar/eslint-config-typescript@8.0.2
+
 ## 7.0.4
 
 ### Patch Changes
