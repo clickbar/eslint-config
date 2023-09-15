@@ -1,5 +1,11 @@
 # @clickbar/eslint-config-typescript
 
+## 8.1.1
+
+### Patch Changes
+
+- 61588d5: Fix @typescript-eslint/no-unused-vars being enabled for ts files
+
 ## 8.1.0
 
 ### Minor Changes
