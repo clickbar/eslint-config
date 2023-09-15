@@ -1,5 +1,17 @@
 # @clickbar/eslint-config
 
+## 7.1.0
+
+### Minor Changes
+
+- 871cce8: Update eslint-config-prettier: `unicode-bom` rule is now not turned off anymore.
+- 8cc80cb: Bump dependencies
+
+### Patch Changes
+
+- Updated dependencies [871cce8]
+  - @clickbar/eslint-config-vue@7.1.0
+
 ## 7.0.5
 
 ### Patch Changes
