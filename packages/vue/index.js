@@ -18,6 +18,10 @@ module.exports = {
         ...require('@typescript-eslint/eslint-plugin').configs[
           'eslint-recommended'
         ].overrides[0].rules,
+
+        // Do not mess with the Vue defineEmits definitions
+        "@typescript-eslint/prefer-function-type": "off",
+        "@typescript-eslint/unified-signatures": "off",
       },
     },
   ],
