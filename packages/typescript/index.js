@@ -26,6 +26,11 @@ module.exports = {
     // handled by unused-imports/no-unused-imports
     '@typescript-eslint/no-unused-vars': 'off',
 
+    // Disable, as this messes too much and each style has its
+    // benefits. Additionally this has breaking semantic when
+    // relying on specific TypeScript behaviour.
+    "@typescript-eslint/consistent-type-definitions": "off",
+
     // Adjust levels
     '@typescript-eslint/no-unsafe-argument': 'warn',
     '@typescript-eslint/no-unsafe-call': 'warn',
