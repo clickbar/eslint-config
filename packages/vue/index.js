@@ -10,6 +10,10 @@ module.exports = {
       rules: {
         // This is needed because the config @typescript-eslint/eslint-recommended
         // is not applied to .vue files, but we want to use it.
+        // Because these rules disable incompatible base rules.
+        // Additionally note, that this is the only ruleset in @typescript-eslint
+        // which is hard scoped on specific file endings, so we do not need to also
+        // add the stylistic and strict rules here.
         ...require('@typescript-eslint/eslint-plugin').configs[
           'eslint-recommended'
         ].overrides[0].rules,
