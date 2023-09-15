@@ -1,5 +1,18 @@
 # @clickbar/eslint-config-vue
 
+## 8.0.0
+
+### Major Changes
+
+- 8a79e3a: Apply typescrip-eslint strict rules to all file extensions
+
+### Patch Changes
+
+- 564cb70: Disable typescript rules messing with Vue defineEmits etc syntax style
+- Updated dependencies [8a79e3a]
+- Updated dependencies [94ec1ad]
+  - @clickbar/eslint-config-typescript@9.0.0
+
 ## 7.1.1
 
 ### Patch Changes

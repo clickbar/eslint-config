@@ -1,5 +1,15 @@
 # @clickbar/eslint-config-typescript
 
+## 9.0.0
+
+### Major Changes
+
+- 8a79e3a: Apply typescrip-eslint strict rules to all file extensions
+
+### Patch Changes
+
+- 94ec1ad: Disable @typescript-eslint/consistent-type-definitions
+
 ## 8.1.1
 
 ### Patch Changes

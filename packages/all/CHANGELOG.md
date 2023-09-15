@@ -1,5 +1,17 @@
 # @clickbar/eslint-config
 
+## 8.0.0
+
+### Major Changes
+
+- 8a79e3a: Apply typescrip-eslint strict rules to all file extensions
+
+### Patch Changes
+
+- Updated dependencies [564cb70]
+- Updated dependencies [8a79e3a]
+  - @clickbar/eslint-config-vue@8.0.0
+
 ## 7.1.1
 
 ### Patch Changes
