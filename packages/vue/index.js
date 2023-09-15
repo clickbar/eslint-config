@@ -6,6 +6,7 @@ module.exports = {
       parser: 'vue-eslint-parser',
       parserOptions: {
         parser: '@typescript-eslint/parser',
+        extraFileExtensions: ['.vue'],
       },
       rules: {
         // This is needed because the config @typescript-eslint/eslint-recommended
