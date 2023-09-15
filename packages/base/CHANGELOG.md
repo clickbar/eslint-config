@@ -1,5 +1,12 @@
 # @clickbar/eslint-config-base
 
+## 6.2.0
+
+### Minor Changes
+
+- 871cce8: Update eslint-config-prettier: `unicode-bom` rule is now not turned off anymore.
+- 8cc80cb: Bump dependencies
+
 ## 6.1.2
 
 ### Patch Changes
