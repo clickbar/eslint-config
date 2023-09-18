@@ -1,5 +1,11 @@
 # @clickbar/eslint-config-vue
 
+## 8.0.1
+
+### Patch Changes
+
+- fb0aca4: Fix: Vue typescript parser was not properly applied
+
 ## 8.0.0
 
 ### Major Changes
