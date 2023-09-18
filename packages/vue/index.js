@@ -3,11 +3,6 @@ module.exports = {
   overrides: [
     {
       files: ['*.vue'],
-      parser: 'vue-eslint-parser',
-      parserOptions: {
-        parser: '@typescript-eslint/parser',
-        extraFileExtensions: ['.vue'],
-      },
       rules: {
         // This is needed because the config @typescript-eslint/eslint-recommended
         // is not applied to .vue files, but we want to use it.
@@ -25,6 +20,15 @@ module.exports = {
       },
     },
   ],
+  // Set parser to vue-eslint-parser to avoid
+  // `Parsing error: ESLint was configured to run on ...` errors
+  // Somehow it was not enough to only override the parser for vue files above.
+  parser: 'vue-eslint-parser',
+  parserOptions: {
+    parser: '@typescript-eslint/parser',
+    extraFileExtensions: ['.vue'],
+    project: true,
+  },
   plugins: ['tailwindcss'],
   extends: [
     'plugin:vue/vue3-recommended',
