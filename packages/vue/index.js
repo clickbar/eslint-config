@@ -3,6 +3,7 @@ module.exports = {
   overrides: [
     {
       files: ['*.vue'],
+      extends: ['plugin:@typescript-eslint/disable-type-checked'],
       rules: {
         // This is needed because the config @typescript-eslint/eslint-recommended
         // is not applied to .vue files, but we want to use it.
