@@ -1,5 +1,14 @@
 # @clickbar/eslint-config-vue
 
+## 8.0.2
+
+### Patch Changes
+
+- b06dd53: Update dependencies
+- 54b2222: Fix: Disable type-checked rules for .vue files for performance
+- Updated dependencies [b06dd53]
+  - @clickbar/eslint-config-typescript@9.0.1
+
 ## 8.0.1
 
 ### Patch Changes
