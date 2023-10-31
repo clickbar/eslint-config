@@ -24,7 +24,7 @@
   "dependencies": {
     "@clickbar/eslint-config-typescript": "workspace:*",
     "eslint-plugin-tailwindcss": "^3.13.0",
-    "eslint-plugin-vue": "^9.17.0"
+    "eslint-plugin-vue": "^9.18.1"
   },
   "devDependencies": {
     "eslint": "^8.52.0"
