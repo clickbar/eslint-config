@@ -16,8 +16,8 @@ module.exports = {
         ].overrides[0].rules,
 
         // Do not mess with the Vue defineEmits definitions
-        "@typescript-eslint/prefer-function-type": "off",
-        "@typescript-eslint/unified-signatures": "off",
+        '@typescript-eslint/prefer-function-type': 'off',
+        '@typescript-eslint/unified-signatures': 'off',
       },
     },
   ],
