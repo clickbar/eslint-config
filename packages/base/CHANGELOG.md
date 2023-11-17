@@ -1,5 +1,11 @@
 # @clickbar/eslint-config-base
 
+## 6.2.3
+
+### Patch Changes
+
+- 83cc56a: Update dependencies
+
 ## 6.2.2
 
 ### Patch Changes
