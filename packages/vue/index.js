@@ -106,7 +106,7 @@ module.exports = {
     'vue/padding-line-between-blocks': 'error',
     'vue/padding-line-between-tags': [
       'error',
-      [{ blankLine: 'consistent', prev: '*', next: '*' }],
+      [{ blankLine: 'always', prev: '*', next: '*' }],
     ],
     'vue/prefer-define-options': 'error',
     'vue/prefer-import-from-vue': 'warn',
