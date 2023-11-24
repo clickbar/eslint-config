@@ -1,5 +1,11 @@
 # @clickbar/eslint-config-typescript
 
+## 9.0.4
+
+### Patch Changes
+
+- b800a78: Update typescript eslint plugin
+
 ## 9.0.3
 
 ### Patch Changes
