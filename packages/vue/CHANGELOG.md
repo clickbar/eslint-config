@@ -1,5 +1,16 @@
 # @clickbar/eslint-config-vue
 
+## 8.1.0
+
+### Minor Changes
+
+- cf4109d: Enforce blank lines between sibling elements in the template
+
+### Patch Changes
+
+- Updated dependencies [b800a78]
+  - @clickbar/eslint-config-typescript@9.0.4
+
 ## 8.0.4
 
 ### Patch Changes
