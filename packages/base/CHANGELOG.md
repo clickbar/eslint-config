@@ -1,5 +1,12 @@
 # @clickbar/eslint-config-base
 
+## 6.2.7
+
+### Patch Changes
+
+- a1a5e0d: Upgrade unicorn to 50.0.1
+- 3886866: Update Dependencies
+
 ## 6.2.6
 
 ### Patch Changes

@@ -1,5 +1,14 @@
 # @clickbar/eslint-config
 
+## 8.0.9
+
+### Patch Changes
+
+- a1a5e0d: Upgrade unicorn to 50.0.1
+- 3886866: Update Dependencies
+- Updated dependencies [3886866]
+  - @clickbar/eslint-config-vue@8.1.4
+
 ## 8.0.8
 
 ### Patch Changes
