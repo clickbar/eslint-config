@@ -1,5 +1,12 @@
 # @clickbar/eslint-config-vue
 
+## 8.1.5
+
+### Patch Changes
+
+- Updated dependencies [4723f1f]
+  - @clickbar/eslint-config-typescript@9.0.9
+
 ## 8.1.4
 
 ### Patch Changes
