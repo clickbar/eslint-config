@@ -1,6 +1,6 @@
 {
   "name": "@clickbar/eslint-config",
-  "version": "8.0.9",
+  "version": "8.0.10",
   "description": "eslint config used at clickbar.",
   "main": "index.js",
   "repository": "https://github.com/clickbar/eslint-config.git",
