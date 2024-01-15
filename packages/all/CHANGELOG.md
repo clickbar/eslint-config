@@ -1,5 +1,13 @@
 # @clickbar/eslint-config
 
+## 8.0.11
+
+### Patch Changes
+
+- 04f6cfe: Update dependencies to support Vue 3.4
+- Updated dependencies [04f6cfe]
+  - @clickbar/eslint-config-vue@8.1.6
+
 ## 8.0.10
 
 ### Patch Changes
