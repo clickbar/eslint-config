@@ -18,7 +18,7 @@
     "@changesets/cli": "^2.27.1",
     "@clickbar/eslint-config": "workspace:*",
     "eslint": "^8.56.0",
-    "prettier": "3.2.2",
+    "prettier": "3.2.4",
     "typescript": "^5.3.3"
   }
 }
