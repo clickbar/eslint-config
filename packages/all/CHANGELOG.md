@@ -1,5 +1,13 @@
 # @clickbar/eslint-config
 
+## 8.0.13
+
+### Patch Changes
+
+- a20f9a0: Update dependencies
+- Updated dependencies [a20f9a0]
+  - @clickbar/eslint-config-vue@8.1.8
+
 ## 8.0.12
 
 ### Patch Changes
