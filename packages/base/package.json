@@ -14,7 +14,7 @@
     "lint": "eslint . --config=index.js"
   },
   "peerDependencies": {
-    "eslint": ">=8.38.0"
+    "eslint": ">=8.56.0"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org",
