@@ -16,16 +16,7 @@
     "provenance": true
   },
   "dependencies": {
-    "@clickbar/eslint-config-vue": "workspace:*",
-    "typescript-eslint": "^7.0.2",
-    "eslint-config-prettier": "^9.1.0",
-    "eslint-plugin-eslint-comments": "^3.2.0",
-    "eslint-plugin-html": "^8.0.0",
-    "eslint-plugin-import": "^2.29.1",
-    "eslint-plugin-promise": "^6.1.1",
-    "eslint-plugin-unicorn": "^51.0.1",
-    "eslint-plugin-vue": "^9.21.1",
-    "prettier": "3.2.5"
+    "@clickbar/eslint-config-vue": "workspace:*"
   },
   "devDependencies": {
     "eslint": "^8.56.0",
