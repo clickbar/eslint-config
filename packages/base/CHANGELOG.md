@@ -1,5 +1,15 @@
 # @clickbar/eslint-config-base
 
+## 7.0.0
+
+### Major Changes
+
+- d81925d: Require eslint >= 8.56.0 & TS >= 4.7.4
+
+  We adjusted the requirements according to the typescript-eslint v7 change [1].
+
+  [1]: https://typescript-eslint.io/blog/announcing-typescript-eslint-v7/
+
 ## 6.2.12
 
 ### Patch Changes
