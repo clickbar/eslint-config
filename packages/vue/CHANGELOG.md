@@ -1,5 +1,21 @@
 # @clickbar/eslint-config-vue
 
+## 9.0.0
+
+### Major Changes
+
+- d81925d: Require eslint >= 8.56.0 & TS >= 4.7.4
+
+  We adjusted the requirements according to the typescript-eslint v7 change [1].
+
+  [1]: https://typescript-eslint.io/blog/announcing-typescript-eslint-v7/
+
+### Patch Changes
+
+- Updated dependencies [d81925d]
+- Updated dependencies [18bd1e0]
+  - @clickbar/eslint-config-typescript@10.0.0
+
 ## 8.1.10
 
 ### Patch Changes
