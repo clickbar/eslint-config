@@ -24,8 +24,7 @@
   },
   "dependencies": {
     "@clickbar/eslint-config-base": "workspace:*",
-    "@typescript-eslint/eslint-plugin": "^7.0.1",
-    "@typescript-eslint/parser": "^7.0.1"
+    "typescript-eslint": "^7.0.2"
   },
   "devDependencies": {
     "eslint": "^8.56.0",
