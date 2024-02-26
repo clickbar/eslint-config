@@ -23,10 +23,10 @@
   },
   "dependencies": {
     "@clickbar/eslint-config-typescript": "workspace:*",
-    "eslint-plugin-tailwindcss": "^3.14.2",
-    "eslint-plugin-vue": "^9.21.1"
+    "eslint-plugin-tailwindcss": "^3.14.3",
+    "eslint-plugin-vue": "^9.22.0"
   },
   "devDependencies": {
-    "eslint": "^8.56.0"
+    "eslint": "^8.57.0"
   }
 }
