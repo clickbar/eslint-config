@@ -1,5 +1,11 @@
 # @clickbar/eslint-config-vue
 
+## 9.0.1
+
+### Patch Changes
+
+- ae09c37: Update Dependencies
+
 ## 9.0.0
 
 ### Major Changes
