@@ -24,10 +24,10 @@
   },
   "dependencies": {
     "@clickbar/eslint-config-base": "workspace:*",
-    "typescript-eslint": "^7.3.1"
+    "typescript-eslint": "^7.5.0"
   },
   "devDependencies": {
     "eslint": "^8.57.0",
-    "typescript": "~5.4.3"
+    "typescript": "~5.4.4"
   }
 }
