@@ -1,5 +1,17 @@
 # @clickbar/eslint-config-typescript
 
+## 10.1.0
+
+### Minor Changes
+
+- aaefa3e: Allow number in '@typescript-eslint/restrict-template-expressions'
+
+### Patch Changes
+
+- e324ae9: Update deps
+- Updated dependencies [e324ae9]
+  - @clickbar/eslint-config-base@7.0.2
+
 ## 10.0.1
 
 ### Patch Changes
