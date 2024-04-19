@@ -22,10 +22,6 @@ module.exports = {
       'error',
       { prefer: 'type-imports', disallowTypeAnnotations: false },
     ],
-    '@typescript-eslint/restrict-template-expressions': [
-      'error',
-      { allowNumber: true },
-    ],
 
     // handled by unused-imports/no-unused-imports
     '@typescript-eslint/no-unused-vars': 'off',
