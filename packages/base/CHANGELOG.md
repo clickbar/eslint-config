@@ -1,5 +1,11 @@
 # @clickbar/eslint-config-base
 
+## 7.0.2
+
+### Patch Changes
+
+- e324ae9: Update deps
+
 ## 7.0.1
 
 ### Patch Changes

@@ -1,5 +1,14 @@
 # @clickbar/eslint-config-vue
 
+## 9.0.3
+
+### Patch Changes
+
+- e324ae9: Update deps
+- Updated dependencies [aaefa3e]
+- Updated dependencies [e324ae9]
+  - @clickbar/eslint-config-typescript@10.1.0
+
 ## 9.0.2
 
 ### Patch Changes
