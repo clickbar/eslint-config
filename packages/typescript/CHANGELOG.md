@@ -1,5 +1,18 @@
 # @clickbar/eslint-config-typescript
 
+## 10.2.0
+
+### Minor Changes
+
+- f85773f: Update eslint-plugin-unicorn to v52
+
+### Patch Changes
+
+- 5a03030: Update minor dependencies
+- Updated dependencies [5a03030]
+- Updated dependencies [f85773f]
+  - @clickbar/eslint-config-base@7.1.0
+
 ## 10.1.0
 
 ### Minor Changes

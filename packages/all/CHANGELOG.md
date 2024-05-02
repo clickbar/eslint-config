@@ -1,5 +1,18 @@
 # @clickbar/eslint-config
 
+## 9.1.0
+
+### Minor Changes
+
+- f85773f: Update eslint-plugin-unicorn to v52
+
+### Patch Changes
+
+- 5a03030: Update minor dependencies
+- Updated dependencies [5a03030]
+- Updated dependencies [f85773f]
+  - @clickbar/eslint-config-vue@9.1.0
+
 ## 9.0.3
 
 ### Patch Changes

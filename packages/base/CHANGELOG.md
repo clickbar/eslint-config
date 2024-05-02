@@ -1,5 +1,15 @@
 # @clickbar/eslint-config-base
 
+## 7.1.0
+
+### Minor Changes
+
+- f85773f: Update eslint-plugin-unicorn to v52
+
+### Patch Changes
+
+- 5a03030: Update minor dependencies
+
 ## 7.0.2
 
 ### Patch Changes
