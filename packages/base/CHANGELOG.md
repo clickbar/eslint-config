@@ -1,5 +1,11 @@
 # @clickbar/eslint-config-base
 
+## 7.1.1
+
+### Patch Changes
+
+- d55b8bb: Update dependencies
+
 ## 7.1.0
 
 ### Minor Changes
