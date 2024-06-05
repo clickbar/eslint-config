@@ -26,6 +26,10 @@ module.exports = {
       'error',
       { allowNumber: true },
     ],
+    '@typescript-eslint/restrict-plus-operands': [
+      'error',
+      { allowNumberAndString: true },
+    ],
 
     // handled by unused-imports/no-unused-imports
     '@typescript-eslint/no-unused-vars': 'off',
