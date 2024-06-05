@@ -1,5 +1,12 @@
 # @clickbar/eslint-config-base
 
+## 7.1.2
+
+### Patch Changes
+
+- bda867c: chore: Update dependencies
+- 08c8aff: fix: unused-imports require v3.2.0 to fix issues with dependencies
+
 ## 7.1.1
 
 ### Patch Changes

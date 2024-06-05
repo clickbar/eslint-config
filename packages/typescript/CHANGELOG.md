@@ -1,5 +1,15 @@
 # @clickbar/eslint-config-typescript
 
+## 10.2.2
+
+### Patch Changes
+
+- bda867c: chore: Update dependencies
+- 734a085: fix: allow numbers and strings with + operand
+- Updated dependencies [bda867c]
+- Updated dependencies [08c8aff]
+  - @clickbar/eslint-config-base@7.1.2
+
 ## 10.2.1
 
 ### Patch Changes

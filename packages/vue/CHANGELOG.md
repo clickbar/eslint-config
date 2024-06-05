@@ -1,5 +1,14 @@
 # @clickbar/eslint-config-vue
 
+## 9.1.2
+
+### Patch Changes
+
+- bda867c: chore: Update dependencies
+- Updated dependencies [bda867c]
+- Updated dependencies [734a085]
+  - @clickbar/eslint-config-typescript@10.2.2
+
 ## 9.1.1
 
 ### Patch Changes
