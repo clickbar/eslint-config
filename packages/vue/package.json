@@ -6,6 +6,7 @@
   "license": "MIT",
   "repository": "https://github.com/clickbar/eslint-config.git",
   "author": "Alexander von Studnitz <studnitz@hey.com> (https://github.com/studnitz/)",
+  "type": "module",
   "files": [
     "index.js"
   ],
@@ -14,7 +15,7 @@
     "lint": "eslint . --config=index.js"
   },
   "peerDependencies": {
-    "eslint": ">=8.56.0"
+    "eslint": ">=9.3.0"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org",
@@ -23,10 +24,10 @@
   },
   "dependencies": {
     "@clickbar/eslint-config-typescript": "workspace:*",
-    "eslint-plugin-tailwindcss": "^3.17.1",
-    "eslint-plugin-vue": "^9.25.0"
+    "eslint-plugin-tailwindcss": "^3.17.4",
+    "eslint-plugin-vue": "^9.26.0"
   },
   "devDependencies": {
-    "eslint": "^8.57.0"
+    "eslint": "^9.5.0"
   }
 }

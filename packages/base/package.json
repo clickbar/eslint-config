@@ -6,15 +6,17 @@
   "license": "MIT",
   "repository": "https://github.com/clickbar/eslint-config.git",
   "author": "Alexander von Studnitz <studnitz@hey.com> (https://github.com/studnitz/)",
+  "type": "module",
   "files": [
     "index.js"
   ],
   "main": "index.js",
   "scripts": {
-    "lint": "eslint . --config=index.js"
+    "lint": "eslint . --config=index.js",
+    "dev": "npx @eslint/config-inspector --config index.js"
   },
   "peerDependencies": {
-    "eslint": ">=8.56.0"
+    "eslint": ">=9.3.0"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org",
@@ -22,18 +24,18 @@
     "provenance": true
   },
   "dependencies": {
-    "eslint-config-prettier": "^9.1.0",
-    "eslint-plugin-eslint-comments": "^3.2.0",
-    "eslint-plugin-html": "^8.1.1",
-    "eslint-plugin-import": "^2.29.1",
-    "eslint-plugin-promise": "^6.1.1",
+    "@eslint/js": "^9.5.0",
+    "eslint-plugin-import-x": "^0.5.2",
+    "eslint-plugin-promise": "^6.2.0",
     "eslint-plugin-unicorn": "^52.0.0",
-    "eslint-plugin-unused-imports": "^3.2.0",
-    "prettier": "3.3.1",
-    "prettier-plugin-tailwindcss": "^0.6.1"
+    "eslint-plugin-unused-imports": "^4.0.0",
+    "globals": "^15.6.0",
+    "prettier": "3.3.2",
+    "prettier-plugin-tailwindcss": "^0.6.5"
   },
   "devDependencies": {
-    "eslint": "^8.57.0",
-    "@typescript-eslint/eslint-plugin": "^7.12.0"
+    "@types/eslint": "^8.56.10",
+    "@types/eslint__js": "^8.42.3",
+    "eslint": "^9.5.0"
   }
 }
