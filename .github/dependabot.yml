@@ -20,11 +20,11 @@ updates:
           - '@typescript-eslint/*'
         update-types:
           - 'major'
-    assignees: 
+    assignees:
       - 'saibotk'
   - package-ecosystem: 'github-actions'
     directory: '/'
     schedule:
       interval: 'weekly'
-    assignees: 
+    assignees:
       - 'saibotk'

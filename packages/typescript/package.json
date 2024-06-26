@@ -6,15 +6,17 @@
   "license": "MIT",
   "repository": "https://github.com/clickbar/eslint-config.git",
   "author": "Alexander von Studnitz <studnitz@hey.com> (https://github.com/studnitz/)",
+  "type": "module",
   "files": [
     "index.js"
   ],
   "main": "index.js",
   "scripts": {
-    "lint": "eslint . --config=index.js"
+    "lint": "eslint . --config=index.ts",
+    "dev": "npx @eslint/config-inspector --config index.ts"
   },
   "peerDependencies": {
-    "eslint": ">=8.56.0",
+    "eslint": ">=9.3.0",
     "typescript": ">=4.7.4"
   },
   "publishConfig": {
@@ -24,10 +26,11 @@
   },
   "dependencies": {
     "@clickbar/eslint-config-base": "workspace:*",
-    "typescript-eslint": "^7.12.0"
+    "typescript-eslint": "8.0.0-alpha.27"
   },
   "devDependencies": {
-    "eslint": "^8.57.0",
+    "@types/eslint": "^8.56.10",
+    "eslint": "^9.5.0",
     "typescript": "~5.4.5"
   }
 }
