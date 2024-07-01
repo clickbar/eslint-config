@@ -1,5 +1,28 @@
 # @clickbar/eslint-config-typescript
 
+## 11.0.0
+
+### Major Changes
+
+- 4c4a768: Migrate to Eslint v9 & flat-config
+
+  Please use an `eslint.config.js` file and use our rules like this:
+
+  ```js
+  import clickbar from '@clickbar/eslint-config'
+
+  export default clickbar()
+  ```
+
+  For other necessary adjustments please checkout the ESlint config documentation.
+
+### Patch Changes
+
+- Updated dependencies [4c4a768]
+- Updated dependencies [4c4a768]
+- Updated dependencies [4c4a768]
+  - @clickbar/eslint-config-base@8.0.0
+
 ## 10.2.2
 
 ### Patch Changes
