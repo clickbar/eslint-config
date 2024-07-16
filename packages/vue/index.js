@@ -98,7 +98,6 @@ export default function vue() {
       rules: {
         'tailwindcss/enforces-negative-arbitrary-values': 'warn',
         'tailwindcss/enforces-shorthand': 'warn',
-        'tailwindcss/migration-from-tailwind-2': 'warn',
         'tailwindcss/no-contradicting-classname': 'error',
 
         'vue/multi-word-component-names': 'off',
