@@ -1,5 +1,7 @@
+/* eslint-env node */
 import base from '@clickbar/eslint-config-base'
 import * as pluginImport from 'eslint-plugin-import-x'
+import process from 'node:process'
 import tseslint from 'typescript-eslint'
 
 export default function typescript() {
@@ -11,6 +13,8 @@ export default function typescript() {
       name: 'clickbar/typescript',
       languageOptions: {
         parserOptions: {
+          // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment, @typescript-eslint/no-unsafe-call, @typescript-eslint/no-unsafe-member-access
+          tsconfigRootDir: process.cwd(),
           project: true,
         },
       },
