@@ -104,12 +104,9 @@ export default function vue() {
         'vue/multi-word-component-names': 'off',
         'vue/no-v-html': 'off',
 
-        'vue/component-tags-order': [
-          'error',
-          {
-            order: ['script', 'template', 'style'],
-          },
-        ],
+        "vue/block-order": ["error", {
+          "order": ['script', 'template', 'style']
+        }],
 
         'vue/block-lang': ['error', { script: { lang: 'ts' } }],
         'vue/component-api-style': [
@@ -161,7 +158,7 @@ export default function vue() {
         'vue/no-duplicate-attr-inheritance': 'warn',
         'vue/no-empty-component-block': 'error',
         'vue/no-multiple-objects-in-class': 'error',
-        'vue/no-ref-object-destructure': 'warn',
+        'vue/no-ref-object-reactivity-loss': 'warn',
         'vue/no-required-prop-with-default': 'error',
         'vue/no-restricted-call-after-await': 'error',
         'vue/no-root-v-if': 'error',
