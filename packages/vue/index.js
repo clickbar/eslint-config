@@ -15,6 +15,7 @@ export default function vue() {
     // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment, @typescript-eslint/no-unsafe-member-access
     ...pluginVue.configs['flat/recommended'],
     {
+      files: ['**/*.vue'],
       name: 'clickbar/vue/disables/prettier',
       rules: {
         'vue/max-len': 'off',
@@ -59,6 +60,7 @@ export default function vue() {
     },
     {
       name: 'clickbar/vue',
+      files: ['**/*.vue'],
       // This allows Vue plugin to work with auto imports
       // https://github.com/vuejs/eslint-plugin-vue/pull/2422
       languageOptions: {
@@ -86,7 +88,6 @@ export default function vue() {
           parser: tseslint.parser,
           sourceType: 'module',
           extraFileExtensions: ['.vue'],
-          project: true,
         },
       },
       plugins: {
@@ -185,6 +186,18 @@ export default function vue() {
     {
       name: 'clickbar/vue/disables/ts',
       files: ['**/*.vue'],
+      // This is basically what tsconfig disable type checked also would add
+      // At the moment type checking vue files leads to gigantic slow downs even
+      // with the project service options (20s -> >12mins in a bigger project)
+      // So we just disable these options, to prevent the plugin from spinning
+      // up a typescript compiler instance for every template etc in a vue file
+      languageOptions: {
+        parserOptions: {
+          project: false,
+          program: null,
+          EXPERIMENTAL_useProjectService: false,
+        },
+      },
       rules: {
         ...tseslint.configs.disableTypeChecked.rules,
         // This is needed because the config @typescript-eslint/eslint-recommended
