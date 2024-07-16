@@ -12,11 +12,8 @@ export default function vue() {
   // eslint-disable-next-line @typescript-eslint/no-unsafe-return
   return [
     ...typescript(),
-    // eslint-disable-next-line @typescript-eslint/no-unsafe-member-access, @typescript-eslint/no-unsafe-assignment, @typescript-eslint/no-unsafe-call, @typescript-eslint/no-unsafe-return
-    ...pluginVue.configs['flat/recommended'].map((x) => ({
-      name: 'vue/recommended',
-      ...x,
-    })),
+    // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment, @typescript-eslint/no-unsafe-member-access
+    ...pluginVue.configs['flat/recommended'],
     {
       name: 'clickbar/vue/disables/prettier',
       rules: {
