@@ -16,7 +16,8 @@
     "dev": "npx @eslint/config-inspector --config index.js"
   },
   "peerDependencies": {
-    "eslint": ">=9.3.0"
+    "eslint": ">=9.3.0",
+    "prettier": "^3.3.3"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org",
@@ -25,17 +26,16 @@
   },
   "dependencies": {
     "@eslint/js": "^9.7.0",
-    "eslint-plugin-import-x": "^0.5.2",
+    "eslint-plugin-import-x": "^0.5.3",
     "eslint-plugin-promise": "^6.4.0",
     "eslint-plugin-unicorn": "^54.0.0",
     "eslint-plugin-unused-imports": "^4.0.0",
     "globals": "^15.8.0",
-    "prettier": "3.3.3",
     "prettier-plugin-tailwindcss": "^0.6.5"
   },
   "devDependencies": {
     "@types/eslint": "^8.56.10",
     "@types/eslint__js": "^8.42.3",
-    "eslint": "^9.5.0"
+    "eslint": "^9.7.0"
   }
 }
