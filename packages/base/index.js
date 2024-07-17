@@ -1,5 +1,6 @@
 import js from '@eslint/js'
 import * as pluginImport from 'eslint-plugin-import-x'
+import { default as pluginTailwindCSS } from 'eslint-plugin-tailwindcss'
 import { default as pluginUnicorn } from 'eslint-plugin-unicorn'
 import { default as pluginUnusedImports } from 'eslint-plugin-unused-imports'
 import globals from 'globals'
@@ -78,6 +79,8 @@ export default function base() {
       },
       plugins: {
         // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
+        tailwindcss: pluginTailwindCSS,
+        // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
         unicorn: pluginUnicorn,
         'import-x': pluginImport,
         // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
@@ -87,6 +90,10 @@ export default function base() {
         'import-x/internal-regex': '^(@/)', // allow imports beginning with @/
       },
       rules: {
+        'tailwindcss/enforces-negative-arbitrary-values': 'warn',
+        'tailwindcss/enforces-shorthand': 'warn',
+        'tailwindcss/no-contradicting-classname': 'error',
+
         'import-x/order': [
           'error',
           {

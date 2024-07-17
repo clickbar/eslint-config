@@ -1,5 +1,4 @@
 import typescript from '@clickbar/eslint-config-typescript'
-import { default as pluginTailwindCSS } from 'eslint-plugin-tailwindcss'
 import pluginVue from 'eslint-plugin-vue'
 import tseslint from 'typescript-eslint'
 import vueParser from 'vue-eslint-parser'
@@ -90,16 +89,7 @@ export default function vue() {
           extraFileExtensions: ['.vue'],
         },
       },
-      plugins: {
-        // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
-        tailwindcss: pluginTailwindCSS,
-      },
-
       rules: {
-        'tailwindcss/enforces-negative-arbitrary-values': 'warn',
-        'tailwindcss/enforces-shorthand': 'warn',
-        'tailwindcss/no-contradicting-classname': 'error',
-
         'vue/multi-word-component-names': 'off',
         'vue/no-v-html': 'off',
 
