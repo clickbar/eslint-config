@@ -1,5 +1,11 @@
 # @clickbar/eslint-config-base
 
+## 8.1.0
+
+### Minor Changes
+
+- b273b1a: Reenable missing unicorn & import recommended rules
+
 ## 8.0.0
 
 ### Major Changes
