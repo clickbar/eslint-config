@@ -23,12 +23,13 @@ Add the scripts to your `package.json` `scripts`:
 },
 ```
 
-Edit `.eslintrc.json`:
+Edit `eslint.config.js`:
 
-```json
-{
-  "extends": ["@clickbar"]
-}
+```js
+/* eslint-env node */
+import clickbar from '@clickbar/eslint-config'
+
+export default clickbar()
 ```
 
 If not present, also create a `.prettierignore`:
