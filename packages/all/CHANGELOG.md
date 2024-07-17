@@ -1,5 +1,29 @@
 # @clickbar/eslint-config
 
+## 10.0.0
+
+### Major Changes
+
+- 4c4a768: Migrate to Eslint v9 & flat-config
+
+  Please use an `eslint.config.js` file and use our rules like this:
+
+  ```js
+  import clickbar from '@clickbar/eslint-config'
+
+  export default clickbar()
+  ```
+
+  For other necessary adjustments please checkout the ESlint config documentation.
+
+### Patch Changes
+
+- Updated dependencies [4c4a768]
+- Updated dependencies [3dce2f5]
+- Updated dependencies [be607e8]
+- Updated dependencies [6cfe24c]
+  - @clickbar/eslint-config-vue@10.0.0
+
 ## 9.1.2
 
 ### Patch Changes
