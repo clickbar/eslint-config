@@ -1,5 +1,29 @@
 # @clickbar/eslint-config-base
 
+## 8.0.0
+
+### Major Changes
+
+- 4c4a768: Migrate to Eslint v9 & flat-config
+
+  Please use an `eslint.config.js` file and use our rules like this:
+
+  ```js
+  import clickbar from '@clickbar/eslint-config'
+
+  export default clickbar()
+  ```
+
+  For other necessary adjustments please checkout the ESlint config documentation.
+
+- 9781091: Require prettier as a peer dependency
+- 4c4a768: Switch to import-x eslint plugin
+
+  Note: You might need to rename references for `import/....` rules to `import-x/....`
+
+- 4c4a768: Remove eslint-plugin-html & eslint-plugin-eslint-comments
+- 6cfe24c: Move tailwind rules to base package
+
 ## 7.1.2
 
 ### Patch Changes

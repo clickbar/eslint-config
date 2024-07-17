@@ -1,5 +1,61 @@
 # @clickbar/eslint-config-vue
 
+## 10.0.0
+
+### Major Changes
+
+- 4c4a768: Migrate to Eslint v9 & flat-config
+
+  Please use an `eslint.config.js` file and use our rules like this:
+
+  ```js
+  import clickbar from '@clickbar/eslint-config'
+
+  export default clickbar()
+  ```
+
+  For other necessary adjustments please checkout the ESlint config documentation.
+
+- be607e8: Removed tailwindcss/migration-from-tailwind-2
+- 6cfe24c: Move tailwind rules to base package
+
+### Minor Changes
+
+- 3dce2f5: Add more vue rules for best practices & type safety
+
+  The biggest impact will probably be the following rules:
+
+  `vue/require-explicit-slots` and `vue/v-bind-style`.
+
+  Bind style just requires to use the new shorthand syntax when possible and is auto-fixable.
+
+  Explicit slots needs some manual fixing, but provides types for slot properties and is highly recommended:
+
+  E.g. define slots like this:
+
+  ```vue
+  <template>
+    <div>
+      <!-- ✓ GOOD -->
+      <slot />
+      <slot name="foo" />
+      <!-- ✗ BAD -->
+      <slot name="bar" />
+    </div>
+  </template>
+  <script setup lang="ts">
+  defineSlots<{
+    default(props: { msg: string }): any
+    foo(props: { msg: string }): any
+  }>()
+  </script>
+  ```
+
+### Patch Changes
+
+- Updated dependencies [4c4a768]
+  - @clickbar/eslint-config-typescript@11.0.0
+
 ## 9.1.2
 
 ### Patch Changes
