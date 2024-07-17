@@ -6,6 +6,7 @@ import tseslint from 'typescript-eslint'
 
 export default function typescript() {
   return tseslint.config(
+    // eslint-disable-next-line @typescript-eslint/no-unsafe-argument
     ...base(),
     ...tseslint.configs.strictTypeChecked,
     tseslint.configs.stylisticTypeChecked[2],
