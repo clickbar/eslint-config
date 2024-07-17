@@ -90,12 +90,26 @@ export default function vue() {
         },
       },
       rules: {
+        'vue/require-explicit-slots': 'error',
+        'vue/v-bind-style': [
+          'error',
+          'shorthand',
+          {
+            sameNameShorthand: 'always',
+          },
+        ],
+        'vue/no-unused-emit-declarations': 'error',
+        'vue/no-use-v-else-with-v-for': 'error',
+
         'vue/multi-word-component-names': 'off',
         'vue/no-v-html': 'off',
 
-        "vue/block-order": ["error", {
-          "order": ['script', 'template', 'style']
-        }],
+        'vue/block-order': [
+          'error',
+          {
+            order: ['script', 'template', 'style'],
+          },
+        ],
 
         'vue/block-lang': ['error', { script: { lang: 'ts' } }],
         'vue/component-api-style': [
@@ -114,7 +128,7 @@ export default function vue() {
           // Allow names with ':' eg. click:positive
           { ignores: ['/^[a-z]+(?:-[a-z]+)*:[a-z]+(?:-[a-z]+)*$/u'] },
         ],
-        'vue/define-emits-declaration': 'error',
+        'vue/define-emits-declaration': ['error', 'type-literal'],
         'vue/define-macros-order': [
           'error',
           {
@@ -124,6 +138,7 @@ export default function vue() {
               'defineEmits',
               'defineSlots',
             ],
+            defineExposeLast: true,
           },
         ],
         'vue/define-props-declaration': 'error',
