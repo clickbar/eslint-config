@@ -48,9 +48,6 @@ importers:
       eslint-plugin-import-x:
         specifier: ^3.0.1
         version: 3.0.1(eslint@9.7.0)(typescript@5.5.3)
-      eslint-plugin-promise:
-        specifier: ^6.6.0
-        version: 6.6.0(eslint@9.7.0)
       eslint-plugin-tailwindcss:
         specifier: ^3.17.4
         version: 3.17.4(tailwindcss@3.4.3)
@@ -615,12 +612,6 @@ packages:
     engines: {node: '>=16'}
     peerDependencies:
       eslint: ^8.56.0 || ^9.0.0-0
-
-  eslint-plugin-promise@6.6.0:
-    resolution: {integrity: sha512-57Zzfw8G6+Gq7axm2Pdo3gW/Rx3h9Yywgn61uE/3elTCOePEHVrn2i5CdfBwA1BLK0Q0WqctICIUSqXZW/VprQ==}
-    engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
-    peerDependencies:
-      eslint: ^7.0.0 || ^8.0.0 || ^9.0.0
 
   eslint-plugin-tailwindcss@3.17.4:
     resolution: {integrity: sha512-gJAEHmCq2XFfUP/+vwEfEJ9igrPeZFg+skeMtsxquSQdxba9XRk5bn0Bp9jxG1VV9/wwPKi1g3ZjItu6MIjhNg==}
@@ -2194,10 +2185,6 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
       - typescript
-
-  eslint-plugin-promise@6.6.0(eslint@9.7.0):
-    dependencies:
-      eslint: 9.7.0
 
   eslint-plugin-tailwindcss@3.17.4(tailwindcss@3.4.3):
     dependencies:
