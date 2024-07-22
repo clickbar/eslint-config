@@ -1,5 +1,12 @@
 # @clickbar/eslint-config-base
 
+## 8.1.1
+
+### Patch Changes
+
+- 6ff082d: Update dependencies
+- 69f55ea: Remove unused eslint-plugin-promise
+
 ## 8.1.0
 
 ### Minor Changes
