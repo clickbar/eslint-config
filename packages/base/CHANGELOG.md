@@ -1,5 +1,11 @@
 # @clickbar/eslint-config-base
 
+## 8.1.2
+
+### Patch Changes
+
+- 6486ca7: Update dependencies
+
 ## 8.1.1
 
 ### Patch Changes

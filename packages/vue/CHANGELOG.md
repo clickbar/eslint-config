@@ -1,5 +1,13 @@
 # @clickbar/eslint-config-vue
 
+## 10.0.3
+
+### Patch Changes
+
+- 6486ca7: Update dependencies
+- Updated dependencies [6486ca7]
+  - @clickbar/eslint-config-typescript@11.0.3
+
 ## 10.0.2
 
 ### Patch Changes
