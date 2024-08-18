@@ -1,5 +1,13 @@
 # @clickbar/eslint-config-vue
 
+## 10.0.4
+
+### Patch Changes
+
+- 619de08: chore(deps): Update dependencies
+- Updated dependencies [619de08]
+  - @clickbar/eslint-config-typescript@11.0.4
+
 ## 10.0.3
 
 ### Patch Changes
