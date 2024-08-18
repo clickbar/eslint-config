@@ -1,8 +1,8 @@
 ---
-'@clickbar/eslint-config-typescript': major
-'@clickbar/eslint-config-base': major
-'@clickbar/eslint-config': major
-'@clickbar/eslint-config-vue': major
+'@clickbar/eslint-config-typescript': patch
+'@clickbar/eslint-config-base': patch
+'@clickbar/eslint-config': patch
+'@clickbar/eslint-config-vue': patch
 ---
 
 chore(deps): Update dependencies
