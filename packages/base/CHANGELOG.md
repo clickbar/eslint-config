@@ -1,5 +1,11 @@
 # @clickbar/eslint-config-base
 
+## 8.1.3
+
+### Patch Changes
+
+- 619de08: chore(deps): Update dependencies
+
 ## 8.1.2
 
 ### Patch Changes
