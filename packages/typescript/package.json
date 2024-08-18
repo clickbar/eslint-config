@@ -26,11 +26,11 @@
   },
   "dependencies": {
     "@clickbar/eslint-config-base": "workspace:*",
-    "typescript-eslint": "8.0.0"
+    "typescript-eslint": "^8.1.0"
   },
   "devDependencies": {
-    "@types/eslint": "^8.56.10",
-    "eslint": "^9.7.0",
+    "@types/eslint": "^9.6.0",
+    "eslint": "^9.9.0",
     "typescript": "~5.5.4"
   }
 }
