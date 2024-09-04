@@ -17,9 +17,9 @@
   "author": "Alexander von Studnitz <alexander.von.studnitz@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "@changesets/cli": "^2.27.7",
+    "@changesets/cli": "^2.27.8",
     "@clickbar/eslint-config": "workspace:*",
-    "eslint": "^9.9.0",
+    "eslint": "^9.9.1",
     "globals": "^15.9.0",
     "prettier": "3.3.3",
     "typescript": "^5.5.4"
