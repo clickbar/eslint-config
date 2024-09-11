@@ -86,7 +86,7 @@ export default function typescript() {
     },
     {
       name: 'clickbar/typescript/import-x',
-      ...pluginImport.configs.typescript,
+      ...pluginImport.flatConfigs.typescript,
     },
   )
 }

@@ -56,12 +56,7 @@ export default function base() {
     },
     {
       name: 'import-x/recommended',
-      plugins: {
-        'import-x': pluginImport,
-      },
-      rules: {
-        ...pluginImport.configs.recommended.rules,
-      },
+      ...pluginImport.flatConfigs.recommended,
     },
     // eslint-disable-next-line @typescript-eslint/no-unsafe-member-access
     pluginUnicorn.configs['flat/recommended'],
