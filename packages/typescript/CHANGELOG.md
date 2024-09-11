@@ -1,5 +1,14 @@
 # @clickbar/eslint-config-typescript
 
+## 11.0.6
+
+### Patch Changes
+
+- c95ab5e: Update dependencies
+- 58f46cb: Fix import plugin missing typescript resolver
+- Updated dependencies [c95ab5e]
+  - @clickbar/eslint-config-base@8.1.5
+
 ## 11.0.5
 
 ### Patch Changes
