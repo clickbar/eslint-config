@@ -6,7 +6,6 @@ import { default as pluginUnusedImports } from 'eslint-plugin-unused-imports'
 import globals from 'globals'
 
 export default function base() {
-  // eslint-disable-next-line @typescript-eslint/no-unsafe-return
   return [
     {
       name: 'clickbar/ignore',
@@ -58,7 +57,7 @@ export default function base() {
       name: 'import-x/recommended',
       ...pluginImport.flatConfigs.recommended,
     },
-    // eslint-disable-next-line @typescript-eslint/no-unsafe-member-access
+
     pluginUnicorn.configs['flat/recommended'],
     {
       name: 'clickbar/base',
@@ -88,7 +87,7 @@ export default function base() {
       plugins: {
         // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
         tailwindcss: pluginTailwindCSS,
-        // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
+
         'unused-imports': pluginUnusedImports,
       },
       settings: {
