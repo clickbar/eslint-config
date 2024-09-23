@@ -1,5 +1,13 @@
 # @clickbar/eslint-config-typescript
 
+## 11.0.7
+
+### Patch Changes
+
+- 70070ea: Update dependencies
+- Updated dependencies [70070ea]
+  - @clickbar/eslint-config-base@8.1.6
+
 ## 11.0.6
 
 ### Patch Changes
