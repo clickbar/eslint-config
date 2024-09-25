@@ -82,7 +82,7 @@ export default function base() {
         sourceType: 'module',
       },
       linterOptions: {
-        reportUnusedDisableDirectives: 'warn',
+        reportUnusedDisableDirectives: 'error',
       },
       plugins: {
         // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
@@ -94,8 +94,8 @@ export default function base() {
         'import-x/internal-regex': '^(@/)', // allow imports beginning with @/
       },
       rules: {
-        'tailwindcss/enforces-negative-arbitrary-values': 'warn',
-        'tailwindcss/enforces-shorthand': 'warn',
+        'tailwindcss/enforces-negative-arbitrary-values': 'error',
+        'tailwindcss/enforces-shorthand': 'error',
         'tailwindcss/no-contradicting-classname': 'error',
 
         'import-x/order': [
@@ -122,7 +122,7 @@ export default function base() {
 
         'unused-imports/no-unused-imports': 'error',
         'unused-imports/no-unused-vars': [
-          'warn',
+          'error',
           {
             vars: 'all',
             varsIgnorePattern: '^_',
@@ -149,8 +149,8 @@ export default function base() {
         'unicorn/no-nested-ternary': 'off',
         'unicorn/number-literal-case': 'off',
 
-        'no-console': ['warn', { allow: ['warn', 'error'] }],
-        'no-debugger': 'warn',
+        'no-console': ['error', { allow: ['warn', 'error'] }],
+        'no-debugger': 'error',
         'no-var': 'error',
         'object-shorthand': ['error', 'always'],
         'prefer-const': 'error',

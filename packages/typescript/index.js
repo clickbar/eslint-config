@@ -45,11 +45,11 @@ export default function typescript() {
         '@typescript-eslint/consistent-type-definitions': 'off',
 
         // Adjust levels
-        '@typescript-eslint/no-unsafe-argument': 'warn',
-        '@typescript-eslint/no-unsafe-call': 'warn',
-        '@typescript-eslint/no-unsafe-member-access': 'warn',
-        '@typescript-eslint/no-unsafe-return': 'warn',
-        '@typescript-eslint/unified-signatures': 'warn',
+        '@typescript-eslint/no-unsafe-argument': 'error',
+        '@typescript-eslint/no-unsafe-call': 'error',
+        '@typescript-eslint/no-unsafe-member-access': 'error',
+        '@typescript-eslint/no-unsafe-return': 'error',
+        '@typescript-eslint/unified-signatures': 'error',
       },
     },
     {

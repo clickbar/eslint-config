@@ -117,7 +117,7 @@ export default function vue() {
           ['script-setup'], // 'script-setup', 'composition', 'composition-vue2', or 'options'
         ],
         'vue/component-name-in-template-casing': [
-          'warn',
+          'error',
           'PascalCase',
           { registeredComponentsOnly: false },
         ],
@@ -143,9 +143,9 @@ export default function vue() {
         ],
         'vue/define-props-declaration': 'error',
         'vue/html-button-has-type': 'error',
-        'vue/html-comment-content-newline': 'warn',
-        'vue/html-comment-content-spacing': 'warn',
-        'vue/html-comment-indent': 'warn',
+        'vue/html-comment-content-newline': 'error',
+        'vue/html-comment-content-spacing': 'error',
+        'vue/html-comment-indent': 'error',
         'vue/html-self-closing': [
           'error',
           {
@@ -159,10 +159,10 @@ export default function vue() {
           },
         ],
         'vue/next-tick-style': ['error', 'promise'],
-        'vue/no-duplicate-attr-inheritance': 'warn',
+        'vue/no-duplicate-attr-inheritance': 'error',
         'vue/no-empty-component-block': 'error',
         'vue/no-multiple-objects-in-class': 'error',
-        'vue/no-ref-object-reactivity-loss': 'warn',
+        'vue/no-ref-object-reactivity-loss': 'error',
         'vue/no-required-prop-with-default': 'error',
         'vue/no-restricted-call-after-await': 'error',
         'vue/no-root-v-if': 'error',
@@ -175,7 +175,7 @@ export default function vue() {
           [{ blankLine: 'always', prev: '*', next: '*' }],
         ],
         'vue/prefer-define-options': 'error',
-        'vue/prefer-import-from-vue': 'warn',
+        'vue/prefer-import-from-vue': 'error',
         'vue/prefer-separate-static-class': 'error',
         'vue/prefer-true-attribute-shorthand': 'error',
         'vue/require-macro-variable-name': 'error',
