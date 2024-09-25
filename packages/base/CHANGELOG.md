@@ -1,5 +1,11 @@
 # @clickbar/eslint-config-base
 
+## 8.1.7
+
+### Patch Changes
+
+- 56e9f75: Convert all warnings to errors
+
 ## 8.1.6
 
 ### Patch Changes
