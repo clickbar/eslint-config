@@ -1,5 +1,13 @@
 # @clickbar/eslint-config-vue
 
+## 10.0.8
+
+### Patch Changes
+
+- 56e9f75: Convert all warnings to errors
+- Updated dependencies [56e9f75]
+  - @clickbar/eslint-config-typescript@11.0.8
+
 ## 10.0.7
 
 ### Patch Changes
