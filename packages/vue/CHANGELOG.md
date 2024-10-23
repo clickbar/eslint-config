@@ -1,5 +1,11 @@
 # @clickbar/eslint-config-vue
 
+## 10.1.0
+
+### Minor Changes
+
+- 366150e: Enable vue rule to find unimported / undefined components
+
 ## 10.0.9
 
 ### Patch Changes
