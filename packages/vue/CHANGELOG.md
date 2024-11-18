@@ -1,5 +1,19 @@
 # @clickbar/eslint-config-vue
 
+## 10.2.0
+
+### Minor Changes
+
+- 70d72ed: Enable prefer-use-template-ref rule
+
+### Patch Changes
+
+- d443140: Update eslint-plugin-unicorn to v56
+- 402ba36: Update dependencies
+- Updated dependencies [d443140]
+- Updated dependencies [402ba36]
+  - @clickbar/eslint-config-typescript@11.0.10
+
 ## 10.1.0
 
 ### Minor Changes
