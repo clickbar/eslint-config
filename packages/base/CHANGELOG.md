@@ -1,5 +1,12 @@
 # @clickbar/eslint-config-base
 
+## 8.1.9
+
+### Patch Changes
+
+- d443140: Update eslint-plugin-unicorn to v56
+- 402ba36: Update dependencies
+
 ## 8.1.8
 
 ### Patch Changes

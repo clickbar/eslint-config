@@ -1,5 +1,16 @@
 # @clickbar/eslint-config
 
+## 10.0.11
+
+### Patch Changes
+
+- d443140: Update eslint-plugin-unicorn to v56
+- 402ba36: Update dependencies
+- Updated dependencies [d443140]
+- Updated dependencies [70d72ed]
+- Updated dependencies [402ba36]
+  - @clickbar/eslint-config-vue@10.2.0
+
 ## 10.0.10
 
 ### Patch Changes
