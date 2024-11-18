@@ -8,10 +8,9 @@ import vueParser from 'vue-eslint-parser'
  * @returns FlatConfig.ConfigArray
  */
 export default function vue() {
-  // eslint-disable-next-line @typescript-eslint/no-unsafe-return
   return [
     ...typescript(),
-    // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment, @typescript-eslint/no-unsafe-member-access
+
     ...pluginVue.configs['flat/recommended'],
     {
       files: ['**/*.vue'],
@@ -183,6 +182,7 @@ export default function vue() {
         'vue/v-for-delimiter-style': 'error',
         'vue/valid-define-options': 'error',
         'vue/no-undef-components': 'error',
+        'vue/prefer-use-template-ref': 'error',
       },
     },
     {
