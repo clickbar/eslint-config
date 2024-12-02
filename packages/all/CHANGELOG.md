@@ -1,5 +1,13 @@
 # @clickbar/eslint-config
 
+## 10.0.13
+
+### Patch Changes
+
+- 3181315: Update dependencies & support TS 5.7
+- Updated dependencies [3181315]
+  - @clickbar/eslint-config-vue@10.2.2
+
 ## 10.0.12
 
 ### Patch Changes
