@@ -25,12 +25,12 @@
     "provenance": true
   },
   "dependencies": {
-    "@eslint/js": "^9.15.0",
+    "@eslint/js": "^9.16.0",
     "eslint-plugin-import-x": "^4.4.3",
     "eslint-plugin-tailwindcss": "^3.17.5",
     "eslint-plugin-unicorn": "^56.0.1",
     "eslint-plugin-unused-imports": "^4.1.4",
-    "globals": "^15.12.0",
+    "globals": "^15.13.0",
     "prettier-plugin-tailwindcss": "^0.6.9"
   },
   "devDependencies": {
