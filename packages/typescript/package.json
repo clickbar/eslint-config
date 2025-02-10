@@ -27,7 +27,7 @@
   "dependencies": {
     "@clickbar/eslint-config-base": "workspace:*",
     "eslint-import-resolver-typescript": "^3.7.0",
-    "typescript-eslint": "^8.20.0"
+    "typescript-eslint": "^8.23.0"
   },
   "devDependencies": {
     "@types/eslint": "^9.6.1",
