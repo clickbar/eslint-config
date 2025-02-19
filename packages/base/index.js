@@ -16,6 +16,7 @@ export default function base() {
         '**/yarn.lock',
         '**/pnpm-lock.yaml',
         '**/bun.lockb',
+        '**/bun.lock',
 
         '**/output/',
         '**/coverage/',
@@ -41,6 +42,8 @@ export default function base() {
         '**/__snapshots__/',
         '**/auto-import?(s).d.ts',
         '**/components.d.ts',
+        '**/generated.d.ts',
+        '**/routes.d.ts',
 
         '**/composer.json',
         '**/composer.lock',
