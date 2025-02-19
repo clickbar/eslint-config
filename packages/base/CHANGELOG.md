@@ -1,5 +1,12 @@
 # @clickbar/eslint-config-base
 
+## 8.1.14
+
+### Patch Changes
+
+- 5b14d5b: Add new bun lock, ziggy & laravel-typescript files to ignore
+- cc773d1: Update dependencies
+
 ## 8.1.13
 
 ### Patch Changes
