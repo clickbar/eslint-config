@@ -20,7 +20,7 @@
     "@changesets/cli": "^2.28.1",
     "@clickbar/eslint-config": "workspace:*",
     "eslint": "^9.15.0",
-    "globals": "^15.15.0",
+    "globals": "^16.0.0",
     "prettier": "3.5.3",
     "typescript": "~5.8.2"
   }
