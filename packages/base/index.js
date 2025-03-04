@@ -1,8 +1,8 @@
 import js from '@eslint/js'
 import * as pluginImport from 'eslint-plugin-import-x'
-import { default as pluginTailwindCSS } from 'eslint-plugin-tailwindcss'
-import { default as pluginUnicorn } from 'eslint-plugin-unicorn'
-import { default as pluginUnusedImports } from 'eslint-plugin-unused-imports'
+import pluginTailwindCSS from 'eslint-plugin-tailwindcss'
+import pluginUnicorn from 'eslint-plugin-unicorn'
+import pluginUnusedImports from 'eslint-plugin-unused-imports'
 import globals from 'globals'
 
 export default function base() {
