@@ -1,5 +1,13 @@
 # @clickbar/eslint-config-base
 
+## 9.0.0
+
+### Major Changes
+
+- efa817f: Remove Prettier as Peer Dependency
+
+  Please use @clickbar/style-guide for prettier settings and plugins.
+
 ## 8.2.0
 
 ### Minor Changes

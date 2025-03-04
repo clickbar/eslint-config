@@ -1,5 +1,18 @@
 # @clickbar/eslint-config
 
+## 11.0.0
+
+### Major Changes
+
+- efa817f: Remove Prettier as Peer Dependency
+
+  Please use @clickbar/style-guide for prettier settings and plugins.
+
+### Patch Changes
+
+- Updated dependencies [efa817f]
+  - @clickbar/eslint-config-vue@11.0.0
+
 ## 10.1.0
 
 ### Minor Changes

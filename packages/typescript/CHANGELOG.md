@@ -1,5 +1,18 @@
 # @clickbar/eslint-config-typescript
 
+## 12.0.0
+
+### Major Changes
+
+- efa817f: Remove Prettier as Peer Dependency
+
+  Please use @clickbar/style-guide for prettier settings and plugins.
+
+### Patch Changes
+
+- Updated dependencies [efa817f]
+  - @clickbar/eslint-config-base@9.0.0
+
 ## 11.1.0
 
 ### Minor Changes
