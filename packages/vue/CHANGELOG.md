@@ -1,5 +1,18 @@
 # @clickbar/eslint-config-vue
 
+## 10.3.0
+
+### Minor Changes
+
+- a206f16: Update Unicorn Plugin to v57
+
+### Patch Changes
+
+- 89b3897: Update dependencies
+- Updated dependencies [a206f16]
+- Updated dependencies [89b3897]
+  - @clickbar/eslint-config-typescript@11.1.0
+
 ## 10.2.5
 
 ### Patch Changes
