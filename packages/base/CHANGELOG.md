@@ -1,5 +1,11 @@
 # @clickbar/eslint-config-base
 
+## 9.0.1
+
+### Patch Changes
+
+- 2ef85bc: Remove utils from abbreviaton replacement list
+
 ## 9.0.0
 
 ### Major Changes
