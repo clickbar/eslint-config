@@ -136,7 +136,7 @@ export default function base() {
 
         'unicorn/prevent-abbreviations': [
           'error',
-          { replacements: { props: false, ref: false, attrs: false } },
+          { replacements: { props: false, ref: false, attrs: false, utils: false } },
         ],
         'unicorn/filename-case': [
           'error',
