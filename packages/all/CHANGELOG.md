@@ -1,5 +1,11 @@
 # @clickbar/eslint-config
 
+## 11.0.2
+
+### Patch Changes
+
+- @clickbar/eslint-config-vue@11.0.2
+
 ## 11.0.1
 
 ### Patch Changes
