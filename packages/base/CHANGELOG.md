@@ -1,5 +1,11 @@
 # @clickbar/eslint-config-base
 
+## 9.0.2
+
+### Patch Changes
+
+- 7e28be4: Disable annoying unicorn rules
+
 ## 9.0.1
 
 ### Patch Changes
