@@ -136,7 +136,7 @@ export default function base() {
 
         'unicorn/prevent-abbreviations': [
           'error',
-          { replacements: { props: false, ref: false, attrs: false, utils: false } },
+          { replacements: { props: false, ref: false, attrs: false, utils: false, env: false } },
         ],
         'unicorn/filename-case': [
           'error',
@@ -145,6 +145,10 @@ export default function base() {
         'unicorn/no-null': 'off',
         'unicorn/no-useless-undefined': 'off',
         'unicorn/prefer-module': 'off',
+        // The autofix is too aggressive. For example it changes
+        // Interface Foo { bar: '\\Escaped' } to Interface Foo { bar: String.raw`\Escaped` }
+        // which is not valid TypeScript.
+        'unicorn/prefer-string-raw': 'off',
 
         // Prevent clashes with prettier formatting
         'unicorn/template-indent': 'off',
