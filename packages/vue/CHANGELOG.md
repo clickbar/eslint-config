@@ -1,5 +1,15 @@
 # @clickbar/eslint-config-vue
 
+## 11.0.3
+
+### Patch Changes
+
+- 0deb45f: Update dependencies
+- 8272787: Update Vue plugin, unicorn plugin & import resolver
+- Updated dependencies [0deb45f]
+- Updated dependencies [8272787]
+  - @clickbar/eslint-config-typescript@12.0.3
+
 ## 11.0.2
 
 ### Patch Changes

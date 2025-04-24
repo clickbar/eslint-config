@@ -1,5 +1,19 @@
 # @clickbar/eslint-config-base
 
+## 9.0.3
+
+### Patch Changes
+
+- 0deb45f: Update dependencies
+- 8272787: Update Vue plugin, unicorn plugin & import resolver
+- 059fecf: Remove tailwindcss plugin to support using TW4
+
+  This causes these rules to be removed:
+
+  - tailwindcss/enforces-negative-arbitrary-values
+  - tailwindcss/enforces-shorthand
+  - tailwindcss/no-contradicting-classname
+
 ## 9.0.2
 
 ### Patch Changes
