@@ -1,6 +1,5 @@
 import js from '@eslint/js'
 import * as pluginImport from 'eslint-plugin-import-x'
-import pluginTailwindCSS from 'eslint-plugin-tailwindcss'
 import pluginUnicorn from 'eslint-plugin-unicorn'
 import pluginUnusedImports from 'eslint-plugin-unused-imports'
 import globals from 'globals'
@@ -88,19 +87,12 @@ export default function base() {
         reportUnusedDisableDirectives: 'error',
       },
       plugins: {
-        // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
-        tailwindcss: pluginTailwindCSS,
-
         'unused-imports': pluginUnusedImports,
       },
       settings: {
         'import-x/internal-regex': '^(@/)', // allow imports beginning with @/
       },
       rules: {
-        'tailwindcss/enforces-negative-arbitrary-values': 'error',
-        'tailwindcss/enforces-shorthand': 'error',
-        'tailwindcss/no-contradicting-classname': 'error',
-
         'import-x/order': [
           'error',
           {
@@ -136,7 +128,15 @@ export default function base() {
 
         'unicorn/prevent-abbreviations': [
           'error',
-          { replacements: { props: false, ref: false, attrs: false, utils: false, env: false } },
+          {
+            replacements: {
+              props: false,
+              ref: false,
+              attrs: false,
+              utils: false,
+              env: false,
+            },
+          },
         ],
         'unicorn/filename-case': [
           'error',
