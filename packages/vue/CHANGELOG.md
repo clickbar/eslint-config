@@ -1,5 +1,11 @@
 # @clickbar/eslint-config-vue
 
+## 11.0.4
+
+### Patch Changes
+
+- 6141191: Fix: Add vue-eslint-parser as a dependency
+
 ## 11.0.3
 
 ### Patch Changes
