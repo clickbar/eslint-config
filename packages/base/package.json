@@ -24,8 +24,8 @@
     "provenance": true
   },
   "dependencies": {
-    "@eslint/js": "^9.25.1",
-    "eslint-plugin-import-x": "^4.10.6",
+    "@eslint/js": "^9.26.0",
+    "eslint-plugin-import-x": "^4.11.0",
     "eslint-plugin-unicorn": "^58.0.0",
     "eslint-plugin-unused-imports": "^4.1.4",
     "globals": "^16.0.0"
