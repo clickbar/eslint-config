@@ -1,5 +1,17 @@
 # @clickbar/eslint-config-base
 
+## 10.0.0
+
+### Major Changes
+
+- 99bedb0: Update eslint-plugin-unicorn to v59
+
+  See https://github.com/sindresorhus/eslint-plugin-unicorn/releases/tag/v59.0.0
+
+### Patch Changes
+
+- 65828d0: Update dependencies
+
 ## 9.0.3
 
 ### Patch Changes
