@@ -198,6 +198,7 @@ export default function vue() {
           project: false,
           program: null,
           EXPERIMENTAL_useProjectService: false,
+          projectService: false,
         },
       },
       rules: {
