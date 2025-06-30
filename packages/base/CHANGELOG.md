@@ -1,5 +1,11 @@
 # @clickbar/eslint-config-base
 
+## 10.0.1
+
+### Patch Changes
+
+- 65aab41: Update dependencies
+
 ## 10.0.0
 
 ### Major Changes
