@@ -1,5 +1,13 @@
 # @clickbar/eslint-config
 
+## 11.0.6
+
+### Patch Changes
+
+- 65aab41: Update dependencies
+- Updated dependencies [65aab41]
+  - @clickbar/eslint-config-vue@11.0.6
+
 ## 11.0.5
 
 ### Patch Changes
