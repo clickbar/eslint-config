@@ -15,7 +15,7 @@ export default function typescript() {
         parserOptions: {
           // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment, @typescript-eslint/no-unsafe-call, @typescript-eslint/no-unsafe-member-access
           tsconfigRootDir: process.cwd(),
-          project: true,
+          projectService: true,
         },
       },
       rules: {
