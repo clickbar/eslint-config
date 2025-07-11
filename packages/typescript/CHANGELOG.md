@@ -1,5 +1,18 @@
 # @clickbar/eslint-config-typescript
 
+## 12.1.0
+
+### Minor Changes
+
+- cc84844: Use TypeScript `projectService` for modern tsconfig resolution and better performance
+
+### Patch Changes
+
+- 875ae23: Update dependencies
+- Updated dependencies [97cc5a9]
+- Updated dependencies [875ae23]
+  - @clickbar/eslint-config-base@10.0.2
+
 ## 12.0.5
 
 ### Patch Changes
