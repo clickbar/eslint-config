@@ -1,5 +1,12 @@
 # @clickbar/eslint-config-base
 
+## 10.0.2
+
+### Patch Changes
+
+- 97cc5a9: Prefer ternary only when it fits single line
+- 875ae23: Update dependencies
+
 ## 10.0.1
 
 ### Patch Changes

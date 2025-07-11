@@ -1,5 +1,15 @@
 # @clickbar/eslint-config-vue
 
+## 11.0.7
+
+### Patch Changes
+
+- 97100ca: fix: Also disable projectService on vue TS lint disable rules
+- 875ae23: Update dependencies
+- Updated dependencies [cc84844]
+- Updated dependencies [875ae23]
+  - @clickbar/eslint-config-typescript@12.1.0
+
 ## 11.0.6
 
 ### Patch Changes
