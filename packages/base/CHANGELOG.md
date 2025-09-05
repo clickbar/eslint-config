@@ -1,5 +1,15 @@
 # @clickbar/eslint-config-base
 
+## 11.0.0
+
+### Major Changes
+
+- 790d377: Correctly specify latest peer dependency requirements
+
+### Minor Changes
+
+- 790d377: Update dependencies
+
 ## 10.0.2
 
 ### Patch Changes

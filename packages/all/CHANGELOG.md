@@ -1,5 +1,21 @@
 # @clickbar/eslint-config
 
+## 12.0.0
+
+### Major Changes
+
+- 790d377: Correctly specify latest peer dependency requirements
+
+### Minor Changes
+
+- 790d377: Update dependencies
+
+### Patch Changes
+
+- Updated dependencies [790d377]
+- Updated dependencies [790d377]
+  - @clickbar/eslint-config-vue@12.0.0
+
 ## 11.0.7
 
 ### Patch Changes
