@@ -1,5 +1,22 @@
 # @clickbar/eslint-config-typescript
 
+## 13.0.0
+
+### Major Changes
+
+- 790d377: Correctly specify latest peer dependency requirements
+
+### Minor Changes
+
+- 790d377: Update dependencies
+
+### Patch Changes
+
+- 790d377: Update typescript-eslint to support TS 5.9
+- Updated dependencies [790d377]
+- Updated dependencies [790d377]
+  - @clickbar/eslint-config-base@11.0.0
+
 ## 12.1.0
 
 ### Minor Changes
