@@ -1,11 +1,12 @@
 /* eslint-env node */
 import base from '@clickbar/eslint-config-base'
+import { defineConfig } from 'eslint/config'
 import * as pluginImport from 'eslint-plugin-import-x'
 import process from 'node:process'
 import tseslint from 'typescript-eslint'
 
 export default function typescript() {
-  return tseslint.config(
+  return defineConfig(
     ...base(),
     ...tseslint.configs.strictTypeChecked,
     tseslint.configs.stylisticTypeChecked[2],

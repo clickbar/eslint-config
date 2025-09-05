@@ -15,9 +15,12 @@
     "lint": "eslint . --config=index.ts",
     "dev": "npx @eslint/config-inspector --config index.ts"
   },
+  "engines": {
+    "node": "^20.10.0 || >=21.1.0"
+  },
   "peerDependencies": {
-    "eslint": ">=9.3.0",
-    "typescript": ">=4.7.4"
+    "eslint": ">=9.29.0",
+    "typescript": ">=4.8.4"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org",
@@ -27,11 +30,11 @@
   "dependencies": {
     "@clickbar/eslint-config-base": "workspace:*",
     "eslint-import-resolver-typescript": "^4.3.4",
-    "typescript-eslint": "^8.36.0"
+    "typescript-eslint": "^8.42.0"
   },
   "devDependencies": {
     "@types/eslint": "^9.6.1",
-    "eslint": "^9.30.1",
-    "typescript": "~5.8.3"
+    "eslint": "^9.34.0",
+    "typescript": "~5.9.2"
   }
 }

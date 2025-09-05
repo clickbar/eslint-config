@@ -60,7 +60,7 @@ export default function base() {
       ...pluginImport.flatConfigs.recommended,
     },
 
-    pluginUnicorn.configs['recommended'],
+    pluginUnicorn.configs.recommended,
     {
       name: 'clickbar/base',
       languageOptions: {
