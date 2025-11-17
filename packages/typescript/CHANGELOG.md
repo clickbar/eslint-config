@@ -1,5 +1,15 @@
 # @clickbar/eslint-config-typescript
 
+## 13.0.1
+
+### Patch Changes
+
+- 03c3035: Update minor / patch versions of dependencies
+- Updated dependencies [2ab21f5]
+- Updated dependencies [03c3035]
+- Updated dependencies [8786ab0]
+  - @clickbar/eslint-config-base@11.1.0
+
 ## 13.0.0
 
 ### Major Changes

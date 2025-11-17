@@ -1,5 +1,16 @@
 # @clickbar/eslint-config-base
 
+## 11.1.0
+
+### Minor Changes
+
+- 2ab21f5: Update Unicorn Plugin to v62
+
+### Patch Changes
+
+- 03c3035: Update minor / patch versions of dependencies
+- 8786ab0: Disable unicorn/require-module-specifiers -> incompatible with TypeScript module detection
+
 ## 11.0.0
 
 ### Major Changes
