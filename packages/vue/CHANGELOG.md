@@ -1,5 +1,13 @@
 # @clickbar/eslint-config-vue
 
+## 12.0.1
+
+### Patch Changes
+
+- 03c3035: Update minor / patch versions of dependencies
+- Updated dependencies [03c3035]
+  - @clickbar/eslint-config-typescript@13.0.1
+
 ## 12.0.0
 
 ### Major Changes
