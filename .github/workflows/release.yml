@@ -21,16 +21,15 @@ jobs:
     steps:
       - uses: actions/checkout@v5
       - uses: pnpm/action-setup@v4
-      - uses: actions/setup-node@v5
+      - uses: actions/setup-node@v6
         with:
+          cache: 'pnpm'
           node-version: '22'
 
-      - run: pnpm install
+      - name: update npm
+        run: npm update -g npm # temporary until setup-node action comes with npm version that contains oidc setup by default
 
-      - name: Set npm auth token
-        run: pnpm config set //registry.npmjs.org/:_authToken=$NODE_AUTH_TOKEN
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+      - run: pnpm install
 
       - name: Create Release Pull Request or Publish to npm
         id: changesets
@@ -39,4 +38,3 @@ jobs:
           publish: pnpm publish --recursive
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
