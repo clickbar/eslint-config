@@ -152,6 +152,10 @@ export default function base() {
         // which is not valid TypeScript.
         'unicorn/prefer-string-raw': 'off',
 
+        // This rule is not compatible with TypeScript modules
+        // See https://github.com/sindresorhus/eslint-plugin-unicorn/issues/2710
+        'unicorn/require-module-specifiers': 'off',
+
         // Prevent clashes with prettier formatting
         'unicorn/template-indent': 'off',
         'unicorn/empty-brace-spaces': 'off',
