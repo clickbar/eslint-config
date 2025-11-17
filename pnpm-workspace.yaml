@@ -3,5 +3,3 @@ packages:
 onlyBuiltDependencies:
   - unrs-resolver
 trustPolicy: no-downgrade
-trustPolicyExclude:
-  - "@typescript-eslint/types@8.35.0"

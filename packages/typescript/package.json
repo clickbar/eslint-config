@@ -29,12 +29,12 @@
   },
   "dependencies": {
     "@clickbar/eslint-config-base": "workspace:*",
-    "eslint-import-resolver-typescript": "^4.3.4",
-    "typescript-eslint": "^8.42.0"
+    "eslint-import-resolver-typescript": "^4.4.4",
+    "typescript-eslint": "^8.47.0"
   },
   "devDependencies": {
     "@types/eslint": "^9.6.1",
-    "eslint": "^9.34.0",
-    "typescript": "~5.9.2"
+    "eslint": "^9.39.1",
+    "typescript": "~5.9.3"
   }
 }
