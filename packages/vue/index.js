@@ -182,6 +182,7 @@ export default function vue() {
         'vue/v-for-delimiter-style': 'error',
         'vue/valid-define-options': 'error',
         'vue/no-undef-components': 'error',
+        'vue/no-undef-directives': 'error',
         'vue/prefer-use-template-ref': 'error',
       },
     },
