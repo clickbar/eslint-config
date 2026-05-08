@@ -1,5 +1,19 @@
 # @clickbar/eslint-config
 
+## 13.0.0
+
+### Major Changes
+
+- 9a4b8c9: Update & require Eslint v10 -> now requires Node 24
+
+### Patch Changes
+
+- b33d6c5: Update dependencies
+- Updated dependencies [4f31023]
+- Updated dependencies [9a4b8c9]
+- Updated dependencies [b33d6c5]
+  - @clickbar/eslint-config-vue@13.0.0
+
 ## 12.0.1
 
 ### Patch Changes

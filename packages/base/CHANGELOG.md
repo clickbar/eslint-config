@@ -1,5 +1,20 @@
 # @clickbar/eslint-config-base
 
+## 12.0.0
+
+### Major Changes
+
+- 9a4b8c9: Update & require Eslint v10 -> now requires Node 24
+
+### Minor Changes
+
+- efaa732: Update to eslint-plugin-unicorn v64 (includes new rules)
+
+### Patch Changes
+
+- e69f5a4: Update globals to v17
+- b33d6c5: Update dependencies
+
 ## 11.1.0
 
 ### Minor Changes
