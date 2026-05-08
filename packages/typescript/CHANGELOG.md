@@ -1,5 +1,20 @@
 # @clickbar/eslint-config-typescript
 
+## 14.0.0
+
+### Major Changes
+
+- 9a4b8c9: Update & require Eslint v10 -> now requires Node 24
+
+### Patch Changes
+
+- b33d6c5: Update dependencies
+- Updated dependencies [e69f5a4]
+- Updated dependencies [9a4b8c9]
+- Updated dependencies [efaa732]
+- Updated dependencies [b33d6c5]
+  - @clickbar/eslint-config-base@12.0.0
+
 ## 13.0.1
 
 ### Patch Changes
