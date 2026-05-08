@@ -16,10 +16,10 @@
     "dev": "npx @eslint/config-inspector --config index.ts"
   },
   "engines": {
-    "node": "^20.10.0 || >=21.1.0"
+    "node": ">=24.0.0"
   },
   "peerDependencies": {
-    "eslint": ">=9.29.0",
+    "eslint": ">=10.0.0",
     "typescript": ">=4.8.4"
   },
   "publishConfig": {
@@ -34,7 +34,7 @@
   },
   "devDependencies": {
     "@types/eslint": "^9.6.1",
-    "eslint": "^9.39.4",
+    "eslint": "^10.3.0",
     "typescript": "~5.9.3"
   }
 }

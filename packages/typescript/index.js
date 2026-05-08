@@ -1,4 +1,3 @@
-/* eslint-env node */
 import base from '@clickbar/eslint-config-base'
 import { defineConfig } from 'eslint/config'
 import * as pluginImport from 'eslint-plugin-import-x'
