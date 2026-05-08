@@ -10,21 +10,20 @@ updates:
     schedule:
       interval: 'weekly'
     open-pull-requests-limit: 10
+    cooldown:
+      default-days: 3
     groups:
       minor-and-patch:
         update-types:
           - 'minor'
           - 'patch'
-      ag-grid:
-        patterns:
-          - '@typescript-eslint/*'
-        update-types:
-          - 'major'
     assignees:
       - 'saibotk'
   - package-ecosystem: 'github-actions'
     directory: '/'
     schedule:
       interval: 'weekly'
+    cooldown:
+      default-days: 3
     assignees:
       - 'saibotk'
