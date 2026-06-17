@@ -27,10 +27,10 @@
   },
   "dependencies": {
     "@clickbar/eslint-config-typescript": "workspace:*",
-    "eslint-plugin-vue": "^10.9.1",
-    "vue-eslint-parser": "^10.4.0"
+    "eslint-plugin-vue": "^10.9.2",
+    "vue-eslint-parser": "^10.4.1"
   },
   "devDependencies": {
-    "eslint": "^10.3.0"
+    "eslint": "^10.5.0"
   }
 }
