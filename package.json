@@ -17,10 +17,10 @@
   "author": "Alexander von Studnitz <alexander.von.studnitz@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "@changesets/cli": "^2.31.0",
+    "@changesets/cli": "^2.31.1",
     "@clickbar/eslint-config": "workspace:*",
-    "eslint": "^10.3.0",
-    "prettier": "3.8.3",
+    "eslint": "^10.8.0",
+    "prettier": "3.9.6",
     "typescript": "~6.0.3"
   },
   "devEngines": {
