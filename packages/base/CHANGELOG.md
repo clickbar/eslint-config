@@ -1,5 +1,15 @@
 # @clickbar/eslint-config-base
 
+## 12.1.0
+
+### Minor Changes
+
+- 27bdd44: Update eslint plugin unicorn to v72
+
+### Patch Changes
+
+- d0eeffc: Update dependencies (non-major)
+
 ## 12.0.0
 
 ### Major Changes
