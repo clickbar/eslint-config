@@ -272,9 +272,6 @@ packages:
   '@types/esrecurse@4.3.1':
     resolution: {integrity: sha512-xJBAbDifo5hpffDBuHl0Y8ywswbiAp/Wi7Y/GtAgSlZyIABppyurxVueOPE8LUQOxdlgi6Zqce7uoEpqNTeiUw==}
 
-  '@types/estree@1.0.8':
-    resolution: {integrity: sha512-dWHzHa2WqEXI/O1E9OjrocMTKJl2mSrEolh1Iomrv6U+JuNwaHXsXx9bLu5gG7BUWFIN0skIQJQ/L1rIex4X6w==}
-
   '@types/estree@1.0.9':
     resolution: {integrity: sha512-GhdPgy1el4/ImP05X05Uw4cw2/M93BCUmnEvWZNStlCzEKME4Fkk+YpoA5OiHNQmoS7Cafb8Xa3Pya8m1Qrzeg==}
 
@@ -468,8 +465,8 @@ packages:
     peerDependencies:
       acorn: ^6.0.0 || ^7.0.0 || ^8.0.0
 
-  acorn@8.17.0:
-    resolution: {integrity: sha512-xRQbDb9BnwDafYNn6Vwl839DYVjqXYb1XVGtWAZ1kcDc6iwAL4hg3B1dZlRiuENFeO2H53gFG3in621AdERVAg==}
+  acorn@8.18.0:
+    resolution: {integrity: sha512-lGq+9yr1/GuAWaVYIHRjvvySG5/4VfKIvC8EWxStPdcDh/Ka7FG3twP6v4d5BkravUilhIAsG4Qj83t02LWUPQ==}
     engines: {node: '>=0.4.0'}
     hasBin: true
 
@@ -953,8 +950,8 @@ packages:
     resolution: {integrity: sha512-PXwfBhYu0hBCPw8Dn0E+WDYb7af3dSLVWKi3HGv84IdF4TyFoC0ysxFd0Goxw7nSv4T/PzEJQxsYsEiFCKo2BA==}
     engines: {node: '>=8.6'}
 
-  minimatch@10.2.5:
-    resolution: {integrity: sha512-MULkVLfKGYDFYejP07QOurDLLQpcjk7Fw+7jXS2R2czRQzR56yHRveU5NDJEOviH+hETZKSkIk5c+T23GjFUMg==}
+  minimatch@10.2.6:
+    resolution: {integrity: sha512-vpLQEs+VLCr1nU0BXS07maYoFwlDAH0gngQuuttxIwutDFEMHq2blX+8vpgxDdK3J1PwjCJiep77OitTZ4Ll1A==}
     engines: {node: 18 || 20 || >=22}
 
   mri@1.2.0:
@@ -1449,7 +1446,7 @@ snapshots:
     dependencies:
       '@eslint/object-schema': 3.0.5
       debug: 4.4.3
-      minimatch: 10.2.5
+      minimatch: 10.2.6
     transitivePeerDependencies:
       - supports-color
 
@@ -1540,12 +1537,10 @@ snapshots:
 
   '@types/eslint@9.6.1':
     dependencies:
-      '@types/estree': 1.0.8
+      '@types/estree': 1.0.9
       '@types/json-schema': 7.0.15
 
   '@types/esrecurse@4.3.1': {}
-
-  '@types/estree@1.0.8': {}
 
   '@types/estree@1.0.9': {}
 
@@ -1620,7 +1615,7 @@ snapshots:
       '@typescript-eslint/types': 8.65.0
       '@typescript-eslint/visitor-keys': 8.65.0
       debug: 4.4.3
-      minimatch: 10.2.5
+      minimatch: 10.2.6
       semver: 7.8.5
       tinyglobby: 0.2.17
       ts-api-utils: 2.5.0(typescript@6.0.3)
@@ -1714,11 +1709,11 @@ snapshots:
   '@unrs/resolver-binding-win32-x64-msvc@1.12.2':
     optional: true
 
-  acorn-jsx@5.3.2(acorn@8.17.0):
+  acorn-jsx@5.3.2(acorn@8.18.0):
     dependencies:
-      acorn: 8.17.0
+      acorn: 8.18.0
 
-  acorn@8.17.0: {}
+  acorn@8.18.0: {}
 
   ajv@6.15.0:
     dependencies:
@@ -1865,7 +1860,7 @@ snapshots:
       eslint: 10.8.0(jiti@2.4.2)
       eslint-import-context: 0.1.9(unrs-resolver@1.12.2)
       is-glob: 4.0.3
-      minimatch: 10.2.5
+      minimatch: 10.2.6
       semver: 7.8.5
       stable-hash-x: 0.2.0
       unrs-resolver: 1.12.2
@@ -1958,7 +1953,7 @@ snapshots:
       imurmurhash: 0.1.4
       is-glob: 4.0.3
       json-stable-stringify-without-jsonify: 1.0.1
-      minimatch: 10.2.5
+      minimatch: 10.2.6
       natural-compare: 1.4.0
       optionator: 0.9.4
     optionalDependencies:
@@ -1968,8 +1963,8 @@ snapshots:
 
   espree@11.2.0:
     dependencies:
-      acorn: 8.17.0
-      acorn-jsx: 5.3.2(acorn@8.17.0)
+      acorn: 8.18.0
+      acorn-jsx: 5.3.2(acorn@8.18.0)
       eslint-visitor-keys: 5.0.1
 
   esprima@4.0.1: {}
@@ -2194,7 +2189,7 @@ snapshots:
       braces: 3.0.3
       picomatch: 2.3.2
 
-  minimatch@10.2.5:
+  minimatch@10.2.6:
     dependencies:
       brace-expansion: 5.0.8
 
