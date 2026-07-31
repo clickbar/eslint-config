@@ -1,6 +1,9 @@
 packages:
   - packages/*
 
-trustPolicy: no-downgrade
+ignoredBuiltDependencies:
+  - unrs-resolver
 
 minimumReleaseAge: 4320 # 3 days
+
+trustPolicy: no-downgrade
