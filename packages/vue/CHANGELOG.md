@@ -1,5 +1,13 @@
 # @clickbar/eslint-config-vue
 
+## 13.0.1
+
+### Patch Changes
+
+- d0eeffc: Update dependencies (non-major)
+- Updated dependencies [d0eeffc]
+  - @clickbar/eslint-config-typescript@14.0.1
+
 ## 13.0.0
 
 ### Major Changes

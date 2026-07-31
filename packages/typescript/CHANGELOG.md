@@ -1,5 +1,14 @@
 # @clickbar/eslint-config-typescript
 
+## 14.0.1
+
+### Patch Changes
+
+- d0eeffc: Update dependencies (non-major)
+- Updated dependencies [27bdd44]
+- Updated dependencies [d0eeffc]
+  - @clickbar/eslint-config-base@12.1.0
+
 ## 14.0.0
 
 ### Major Changes
