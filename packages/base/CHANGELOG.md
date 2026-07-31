@@ -1,5 +1,11 @@
 # @clickbar/eslint-config-base
 
+## 12.1.1
+
+### Patch Changes
+
+- 56a4d60: Fix: rename unicorn rule prevent-abbreviations -> name-replacements
+
 ## 12.1.0
 
 ### Minor Changes
