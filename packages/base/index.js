@@ -128,7 +128,7 @@ export default function base() {
 
         'unicorn/prefer-ternary': ['error', 'only-single-line'],
 
-        'unicorn/prevent-abbreviations': [
+        'unicorn/name-replacements': [
           'error',
           {
             replacements: {
